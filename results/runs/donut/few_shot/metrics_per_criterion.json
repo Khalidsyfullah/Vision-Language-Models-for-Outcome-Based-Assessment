@@ -1,0 +1,260 @@
+[
+  {
+    "criterion":"Supervised Learning",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Unsupervised Learning",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Reinforcement Learning",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Example, Overall Clarity & Structure",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Defintion of climate and weather",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Name of the climate variables",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Hemato-biochemical changes in rohu due to an increase of temparature",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Understanding of Concept",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Step-by-Step Procedure",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Accuracy of Final Answer",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Clarity & Presentation",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Concept of Histogram Equalization",
+    "n_total":4,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Necessity of Histogram Equalization",
+    "n_total":4,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Concept of Histogram Matching",
+    "n_total":4,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Necessity of Histogram Matching",
+    "n_total":4,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Understanding of schema and instance (2)",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Explanation of different types of keys with examples (4)",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Correct identification of keys in given relation (2)",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Clear and organized writing (2)",
+    "n_total":6,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Definition of Method Overloading",
+    "n_total":5,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Definition of Method Overriding",
+    "n_total":5,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Comparision",
+    "n_total":5,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Example \/ Application",
+    "n_total":13,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Definition of Data Mining",
+    "n_total":8,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"KDD Process Steps",
+    "n_total":8,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Importance of Data Mining Marks=(4)",
+    "n_total":8,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Understanding of normalization and related problems(3)",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Explanation of normal forms(3)",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Use of example(2)",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Clear and organized writing(2)",
+    "n_total":10,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Definition of Quantization",
+    "n_total":3,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Purpose of Quantization",
+    "n_total":3,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Max-Lloyd Algorithm Explanation",
+    "n_total":3,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Boundary & Centroid Conditions",
+    "n_total":3,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Importance of R² and Variability (eg. 0.85 or 85%) explained by the model",
+    "n_total":2,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit \nR² ≈ 0 → poor fit \nR²<0 → model is worse than just using the mean",
+    "n_total":2,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Critical Insight (Limitations \/ Adjusted R²) and higher R² strengthens confidence",
+    "n_total":2,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Enables comparison between models and overfitting issues",
+    "n_total":2,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Identification of Layers (2 Marks)",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Explanation of Layers with diagram (4 Marks)",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Technical Accuracy (2 Marks)",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Examples\/Protocols(1 Mark)",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  },
+  {
+    "criterion":"Clarity & Organization (1 Mark)",
+    "n_total":9,
+    "n_valid":0,
+    "parse_rate":0.0
+  }
+]

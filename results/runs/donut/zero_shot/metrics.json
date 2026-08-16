@@ -1,0 +1,13 @@
+[
+  {
+    "model":"donut",
+    "regime":"zero_shot",
+    "n_total":291,
+    "n_valid":0,
+    "parse_rate":0.0,
+    "n_answers_total":72,
+    "n_answers_complete":0,
+    "answer_parse_rate":0.0,
+    "n_answers":0
+  }
+]

@@ -1,0 +1,2 @@
+model,regime,n_total,n_valid,parse_rate,n_answers_total,n_answers_complete,answer_parse_rate,n_answers
+donut,zero_shot,291,0,0.0,72,0,0.0,0

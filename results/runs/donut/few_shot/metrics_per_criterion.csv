@@ -1,0 +1,46 @@
+criterion,n_total,n_valid,parse_rate
+Supervised Learning,9,0,0.0
+Unsupervised Learning,9,0,0.0
+Reinforcement Learning,9,0,0.0
+"Example, Overall Clarity & Structure",9,0,0.0
+Defintion of climate and weather,6,0,0.0
+Name of the climate variables,6,0,0.0
+Hemato-biochemical changes in rohu due to an increase of temparature,6,0,0.0
+Understanding of Concept,10,0,0.0
+Step-by-Step Procedure,10,0,0.0
+Accuracy of Final Answer,10,0,0.0
+Clarity & Presentation,10,0,0.0
+Concept of Histogram Equalization,4,0,0.0
+Necessity of Histogram Equalization,4,0,0.0
+Concept of Histogram Matching,4,0,0.0
+Necessity of Histogram Matching,4,0,0.0
+Understanding of schema and instance (2),6,0,0.0
+Explanation of different types of keys with examples (4),6,0,0.0
+Correct identification of keys in given relation (2),6,0,0.0
+Clear and organized writing (2),6,0,0.0
+Definition of Method Overloading,5,0,0.0
+Definition of Method Overriding,5,0,0.0
+Comparision,5,0,0.0
+Example / Application,13,0,0.0
+Definition of Data Mining,8,0,0.0
+KDD Process Steps,8,0,0.0
+Importance of Data Mining Marks=(4),8,0,0.0
+Understanding of normalization and related problems(3),10,0,0.0
+Explanation of normal forms(3),10,0,0.0
+Use of example(2),10,0,0.0
+Clear and organized writing(2),10,0,0.0
+Definition of Quantization,3,0,0.0
+Purpose of Quantization,3,0,0.0
+Max-Lloyd Algorithm Explanation,3,0,0.0
+Boundary & Centroid Conditions,3,0,0.0
+Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,2,0,0.0
+"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",2,0,0.0
+Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,2,0,0.0
+Enables comparison between models and overfitting issues,2,0,0.0
+Identification of Layers (2 Marks),9,0,0.0
+Explanation of Layers with diagram (4 Marks),9,0,0.0
+Technical Accuracy (2 Marks),9,0,0.0
+Examples/Protocols(1 Mark),9,0,0.0
+Clarity & Organization (1 Mark),9,0,0.0
