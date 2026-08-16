@@ -1,0 +1,261 @@
+# =============================================================================
+# OBE-VLM-Grading — single configuration file for ALL hyperparameters.
+# Every script reads this file (override with --config or $OBE_CONFIG).
+# =============================================================================
+
+seed: 42
+
+# -----------------------------------------------------------------------------
+# Paths (relative paths resolve against the repo root)
+# -----------------------------------------------------------------------------
+paths:
+  # results/runs/<model>/<regime>/predictions_run0.json + metrics
+  # results/runs/<model>/<regime>/reliability/  (Study 3 repeated runs)
+  # results/studies/study{1..5}/
+  output_root: results
+  # Only used when dataset.source == "local"
+  local_dataset_dir: dataset
+  # Optional CSV of extra human raters for Study 2 (template auto-generated)
+  human_ratings_csv: data/human_ratings.csv
+  # Optional CSV of completed teacher survey for Study 5
+  teacher_survey_csv: data/teacher_survey_responses.csv
+
+# -----------------------------------------------------------------------------
+# Dataset — loaded from the HuggingFace Hub by default
+# -----------------------------------------------------------------------------
+dataset:
+  source: hf_hub                    # "hf_hub" or "local"
+  hf_repo: khalidsyfullah/obe-exam-grading
+  splits: [train, validation, test]
+  max_image_long_side: 1280         # per-model override below wins
+  cache_images: true                # one image is shared by an answer's criteria
+  # Evaluation labels include 1.8, so 0.05 is the smallest decimal grid needed
+  # to preserve every released gold score exactly. Ensemble outputs can still
+  # be snapped independently to their configured 0.25-mark grid below.
+  score_resolution: 0.05
+  # Upper bound used only for malformed/unseen criterion metadata. Maxima for
+  # validation/test are learned from TRAIN; their gold labels are never read.
+  max_criterion_score: 4.0
+  # `criterion_max` in the raw data is unreliable (38 rows have
+  # gained_marks > criterion_max; 350 rows carry the question total 16.0).
+  # true=repair it from the rubric levels / criterion name (see src/scoring.py)
+  repair_criterion_max: true
+
+# -----------------------------------------------------------------------------
+# Models (3 VLMs). key = short name used on the CLI and in output folders.
+# -----------------------------------------------------------------------------
+models:
+  qwen25vl:
+    family: chat_vlm
+    model_id: Qwen/Qwen2.5-VL-7B-Instruct
+    model_class: Qwen2_5_VLForConditionalGeneration
+    max_image_long_side: 1280
+    batch_size_train: 4
+    grad_accum: 4
+    batch_size_full: 2              # 30% partial FT; per device
+    grad_accum_full: 8              # keeps effective batch 16
+    batch_size_infer: 8
+  internvl3:
+    family: chat_vlm
+    model_id: OpenGVLab/InternVL3-8B-hf
+    model_class: AutoModelForImageTextToText
+    max_image_long_side: 1280
+    batch_size_train: 4
+    grad_accum: 4
+    batch_size_full: 2
+    grad_accum_full: 8
+    batch_size_infer: 8
+  pixtral:
+    family: chat_vlm
+    model_id: mistral-community/pixtral-12b
+    model_class: LlavaForConditionalGeneration
+    max_image_long_side: 768        # pixtral expands images into many tokens
+    batch_size_train: 2
+    grad_accum: 8
+    batch_size_full: 1
+    grad_accum_full: 16
+    batch_size_infer: 4
+  # OCR-free document-understanding baseline: Swin encoder + BART decoder,
+  # ~200M params, NO language-model backbone and NO in-context learning.
+  # It answers "does an OCR-free doc model need an LLM to grade?".
+  # Expect near-chance zero-/few-shot output: donut-base is not
+  # instruction-tuned, so its untrained regimes are a floor, not a baseline.
+  donut:
+    family: donut
+    model_id: naver-clova-ix/donut-base
+    model_class: VisionEncoderDecoderModel
+    max_image_long_side: 1280       # the Donut processor resizes to donut.image_size
+    batch_size_train: 4
+    grad_accum: 4
+    batch_size_full: 4              # Donut remains a true full fine-tune
+    grad_accum_full: 4
+    batch_size_infer: 8
+    # BART attention projections (the chat-VLM names do not exist here)
+    lora_target_modules: [q_proj, k_proj, v_proj, out_proj, fc1, fc2]
+
+# Donut-specific settings (ignored by the chat VLMs)
+donut:
+  task_start_token: "<s_grade>"     # decoder start token added to the tokenizer
+  image_size: [1280, 640]           # [height, width] — answer strips are tall
+  max_text_length: 512              # decoder prefix budget (BART has 1536 pos.)
+  max_prompt_chars: 1200            # reference answer trimmed to fit
+  max_new_tokens: 16                # the target is a bare number
+
+model_loading:
+  torch_dtype: bfloat16
+  device_map: auto
+  trust_remote_code: true
+  attn_implementation: eager        # REQUIRED for score-attention XAI
+  load_in_4bit: false               # set true on <=24 GB GPUs (needs bitsandbytes)
+  load_in_8bit: false
+
+# -----------------------------------------------------------------------------
+# Regimes: zero_shot | few_shot | lora  (+ "ensemble" combines the 3 models)
+# -----------------------------------------------------------------------------
+regimes: [zero_shot, few_shot, lora, full]
+
+few_shot:
+  n_exemplars: 3                    # in-context graded examples (with images)
+  stratify_by_score: true           # sample across score levels
+  exemplar_seed: 42
+  max_exemplar_image_side: 512      # keep the context small
+  # Prompt budget for few-shot only (null = use inference.max_length).
+  # Every exemplar adds a whole image; models with dynamic tiling (InternVL3,
+  # Pixtral) turn one tall answer image into 1000+ tokens, so 4 images blow
+  # past a 4096 budget. Prompts are NEVER truncated (that corrupts the image
+  # placeholder tokens) — instead exemplars are dropped until the prompt fits,
+  # and the count actually used is logged and stored with the predictions.
+  max_length: 8192
+
+# -----------------------------------------------------------------------------
+# LoRA fine-tuning
+# -----------------------------------------------------------------------------
+training:
+  epochs: 3
+  learning_rate: 1.0e-4
+  warmup_ratio: 0.05
+  weight_decay: 0.01
+  lr_scheduler: cosine
+  max_grad_norm: 1.0
+  # InternVL dynamic tiling produced a 4,133-token late training sample.
+  # Training prompts are never truncated, so retain safe headroom instead.
+  max_length: 8192
+  freeze_vision_tower: true
+  bf16: true                        # auto-falls back to fp16 if unsupported
+  gradient_checkpointing: true
+  # Collators are spawn-safe; this can remain >0 on Windows. Set to 0 only as
+  # a diagnostic fallback if a third-party processor cannot be serialized.
+  dataloader_num_workers: 2
+  optim: adamw_torch_fused          # use "paged_adamw_8bit" with 4-bit loading
+  lora:
+    r: 32
+    alpha: 64
+    dropout: 0.05
+    # default for the chat VLMs; models.<name>.lora_target_modules overrides
+    target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  # Resource-aware "full" regime:
+  #   * qwen25vl/internvl3/pixtral: freeze vision, embeddings, projector, and
+  #     lower language blocks; train a suffix of complete top language blocks
+  #     nearest 30% of ALL model parameters.
+  #   * donut: train 100% of parameters.
+  # This fits one 96 GB GPU per chat model without pretending that native
+  # Windows DataParallel pools the three cards' memory. Actual selected layer
+  # IDs and trainable fraction are logged and saved with the checkpoint.
+  full:
+    learning_rate: 2.0e-5           # ~5x lower than LoRA for base weights
+    chat_unfreeze_fraction: 0.30
+    force: false                    # bypass the VRAM feasibility check
+
+# -----------------------------------------------------------------------------
+# Inference / generation
+# -----------------------------------------------------------------------------
+inference:
+  max_new_tokens: 128
+  do_sample: false                  # deterministic for Studies 1/2/4/5
+  temperature: 0.0
+  max_length: 4096
+  # Spawn-safe on Windows. Set to 0 only as a third-party compatibility
+  # fallback (slower preprocessing, identical predictions).
+  num_workers: 2
+  clamp_to_criterion_max: true      # clip predictions into [0, criterion max]
+
+# -----------------------------------------------------------------------------
+# Ensemble (cascade, as in Module 4)
+# -----------------------------------------------------------------------------
+ensemble:
+  small_models: [qwen25vl, internvl3]   # step 1: the two smaller models
+  tiebreaker: pixtral                   # step 2: escalate on disagreement
+  disagree_threshold: 1.0               # in raw mark units
+  clamp_to_max: true
+  snap_to_grid: true                    # averages land on the mark grid
+  score_resolution: 0.25
+
+# -----------------------------------------------------------------------------
+# Study 1 — Accuracy
+# -----------------------------------------------------------------------------
+study1:
+  adjacent_tolerance: 1.0           # "adjacent agreement" = |pred-true| <= tol
+
+# -----------------------------------------------------------------------------
+# Study 2 — Human agreement
+# -----------------------------------------------------------------------------
+study2:
+  compare_runs: all
+  bootstrap_ci: true
+  n_bootstrap: 2000
+
+# -----------------------------------------------------------------------------
+# Study 3 — Reliability (test–retest)
+# -----------------------------------------------------------------------------
+study3:
+  n_runs: 5                         # repeated inference runs per model
+  do_sample: true                   # stochastic decoding measures run variance
+  temperature: 0.7
+  top_p: 0.9
+  regime: lora                      # regime the repeated runs use
+  # per-run seeds = seed + run index
+
+# -----------------------------------------------------------------------------
+# Study 4 — Fairness + error analysis
+# -----------------------------------------------------------------------------
+study4:
+  ink_density_quantiles: [0.33, 0.66]     # low/med/high handwriting density
+  answer_length_quantiles: [0.33, 0.66]   # proxy: ink pixel count
+  large_error_threshold: 2.0              # |err| >= this => "large error"
+  min_subgroup_n: 10
+  # NOTE: the released dataset is entirely English, so the `language`
+  # subgroup collapses to one level and is skipped by min_subgroup_n.
+  subgroup_features: [handwriting_density_grp, answer_length_grp, language,
+                      subject, criterion_scale_grp, criterion_type]
+
+# -----------------------------------------------------------------------------
+# Study 5 — XAI evaluation
+# -----------------------------------------------------------------------------
+study5:
+  xai_model: qwen25vl               # model used for heatmaps + faithfulness
+  xai_regime: lora
+  n_heatmap_samples: 12
+  xai_max_image_side: 768           # attention is O(seq^2) — keep images small
+  max_seq_for_rollout: 3072         # refuse longer sequences instead of OOM
+  # Recursive causal rollout collapses onto the first image token (an
+  # attention sink), producing the same top-left hotspot for every answer.
+  # Default to score-token attention minus nearby pre-score query attention.
+  attribution_method: contrastive_score_attention
+  attention_last_k_layers: 8
+  attention_baseline_queries: 4
+  faithfulness:
+    n_samples: 30
+    mask_fractions: [0.1, 0.2, 0.3, 0.5]  # top-k% of attended pixels masked
+    metric: score_change                  # deletion-based faithfulness
+  survey:
+    n_items: 10                     # explanations sampled into the survey
+    likert_max: 5
+
+# -----------------------------------------------------------------------------
+# Hugging Face Hub (optional pushes; authenticate with `hf auth login`)
+# -----------------------------------------------------------------------------
+hub:
+  push_adapters: false
+  push_results: false
+  models_repo: khalidsyfullah/obe-models
+  results_repo: khalidsyfullah/obe-results

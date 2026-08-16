@@ -1,0 +1,591 @@
+example_id,criterion_index,criterion_name,max_score,rater_id,score
+440_c0,0,Supervised Learning,2.5,rater2,2.5
+440_c1,1,Unsupervised Learning,2.5,rater2,2.5
+440_c2,2,Reinforcement Learning,2.5,rater2,2.5
+440_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+117_c0,0,Defintion of climate and weather,2,rater2,1.75
+117_c1,1,Name of the climate variables,2,rater2,2
+117_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,1.75
+343_c0,0,Understanding of Concept,4,rater2,3
+343_c1,1,Step-by-Step Procedure,4,rater2,3.5
+343_c2,2,Accuracy of Final Answer,4,rater2,2.5
+343_c3,3,Clarity & Presentation,4,rater2,3.5
+99_c0,0,Concept of Histogram Equalization,4,rater2,4
+99_c1,1,Necessity of Histogram Equalization,4,rater2,4
+99_c2,2,Concept of Histogram Matching,4,rater2,4
+99_c3,3,Necessity of Histogram Matching,4,rater2,4
+189_c0,0,Understanding of schema and instance (2),2,rater2,1.5
+189_c1,1,Explanation of different types of keys with examples (4),4,rater2,3
+189_c2,2,Correct identification of keys in given relation (2),2,rater2,1
+189_c3,3,Clear and organized writing (2),2,rater2,1.5
+405_c0,0,Supervised Learning,2.5,rater2,2.5
+405_c1,1,Unsupervised Learning,2.5,rater2,2.5
+405_c2,2,Reinforcement Learning,2.5,rater2,2.5
+405_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+337_c0,0,Understanding of Concept,4,rater2,3.5
+337_c1,1,Step-by-Step Procedure,4,rater2,3.5
+337_c2,2,Accuracy of Final Answer,4,rater2,3
+337_c3,3,Clarity & Presentation,4,rater2,3.5
+410_c0,0,Supervised Learning,2.5,rater2,2.5
+410_c1,1,Unsupervised Learning,2.5,rater2,2.5
+410_c2,2,Reinforcement Learning,2.5,rater2,2.5
+410_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+463_c0,0,Supervised Learning,2.5,rater2,2.5
+463_c1,1,Unsupervised Learning,2.5,rater2,2.5
+463_c2,2,Reinforcement Learning,2.5,rater2,2.5
+463_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+470_c0,0,Definition of Method Overloading,4,rater2,4
+470_c1,1,Definition of Method Overriding,4,rater2,4
+470_c2,2,Comparision,4,rater2,4
+470_ex,3,Example / Application,4,rater2,3
+320_def,0,Definition of Data Mining,4,rater2,0
+320_kdd,1,KDD Process Steps,4,rater2,0
+320_c2,2,Importance of Data Mining Marks=(4),4,rater2,0
+320_ex,3,Example / Application,4,rater2,0
+142_c0,0,Understanding of normalization and related problems(3),3,rater2,2
+142_c1,1,Explanation of normal forms(3),3,rater2,1.5
+142_c2,2,Use of example(2),2,rater2,1.5
+142_c3,3,Clear and organized writing(2),2,rater2,1.5
+103_c0,0,Concept of Histogram Equalization,4,rater2,3.5
+103_c1,1,Necessity of Histogram Equalization,4,rater2,3.5
+103_c2,2,Concept of Histogram Matching,4,rater2,4
+103_c3,3,Necessity of Histogram Matching,4,rater2,3.5
+37_c0,0,Definition of Quantization,2.5,rater2,2.5
+37_c1,1,Purpose of Quantization,2.5,rater2,2.5
+37_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater2,2.5
+37_c3,3,Boundary & Centroid Conditions,2.5,rater2,2.25
+12_c0,0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,3,rater2,0
+12_c1,1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",3,rater2,0
+12_c2,2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,3,rater2,0
+12_c3,3,Enables comparison between models and overfitting issues,3,rater2,0
+247_c0,0,Identification of Layers (2 Marks),2,rater2,2
+247_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,4
+247_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+247_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+247_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+291_def,0,Definition of Data Mining,4,rater2,2.5
+291_kdd,1,KDD Process Steps,4,rater2,2.5
+291_c2,2,Importance of Data Mining Marks=(4),4,rater2,1
+291_ex,3,Example / Application,4,rater2,0
+143_c0,0,Understanding of normalization and related problems(3),3,rater2,1
+143_c1,1,Explanation of normal forms(3),3,rater2,0.5
+143_c2,2,Use of example(2),2,rater2,1
+143_c3,3,Clear and organized writing(2),2,rater2,1
+268_c0,0,Identification of Layers (2 Marks),2,rater2,2
+268_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,3.5
+268_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+268_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+268_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+119_c0,0,Defintion of climate and weather,2,rater2,2
+119_c1,1,Name of the climate variables,2,rater2,2
+119_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,0.5
+173_c0,0,Understanding of normalization and related problems(3),3,rater2,3
+173_c1,1,Explanation of normal forms(3),3,rater2,3
+173_c2,2,Use of example(2),2,rater2,2
+173_c3,3,Clear and organized writing(2),2,rater2,1.75
+190_c0,0,Understanding of schema and instance (2),2,rater2,1.75
+190_c1,1,Explanation of different types of keys with examples (4),4,rater2,3
+190_c2,2,Correct identification of keys in given relation (2),2,rater2,1.5
+190_c3,3,Clear and organized writing (2),2,rater2,1.5
+228_c0,0,Identification of Layers (2 Marks),2,rater2,2
+228_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,3.5
+228_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+228_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+228_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+441_c0,0,Supervised Learning,2.5,rater2,2.5
+441_c1,1,Unsupervised Learning,2.5,rater2,2.5
+441_c2,2,Reinforcement Learning,2.5,rater2,2.5
+441_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+481_c0,0,Definition of Method Overloading,4,rater2,3
+481_c1,1,Definition of Method Overriding,4,rater2,3
+481_c2,2,Comparision,4,rater2,3
+481_ex,3,Example / Application,4,rater2,3
+144_c0,0,Understanding of normalization and related problems(3),3,rater2,2
+144_c1,1,Explanation of normal forms(3),3,rater2,1
+144_c2,2,Use of example(2),2,rater2,1.5
+144_c3,3,Clear and organized writing(2),2,rater2,1.5
+18_c0,0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,3,rater2,1.5
+18_c1,1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",3,rater2,1.5
+18_c2,2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,3,rater2,0.5
+18_c3,3,Enables comparison between models and overfitting issues,3,rater2,0
+479_c0,0,Definition of Method Overloading,4,rater2,4
+479_c1,1,Definition of Method Overriding,4,rater2,4
+479_c2,2,Comparision,4,rater2,3.5
+479_ex,3,Example / Application,4,rater2,4
+400_c0,0,Understanding of Concept,4,rater2,3.5
+400_c1,1,Step-by-Step Procedure,4,rater2,3.5
+400_c2,2,Accuracy of Final Answer,4,rater2,3
+400_c3,3,Clarity & Presentation,4,rater2,3.5
+216_c0,0,Identification of Layers (2 Marks),2,rater2,2
+216_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,3.5
+216_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+216_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+216_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+39_c0,0,Definition of Quantization,2.5,rater2,0
+39_c1,1,Purpose of Quantization,2.5,rater2,0
+39_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater2,0
+39_c3,3,Boundary & Centroid Conditions,2.5,rater2,0
+122_c0,0,Defintion of climate and weather,2,rater2,2
+122_c1,1,Name of the climate variables,2,rater2,2
+122_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,1
+205_c0,0,Understanding of schema and instance (2),2,rater2,2
+205_c1,1,Explanation of different types of keys with examples (4),4,rater2,2
+205_c2,2,Correct identification of keys in given relation (2),2,rater2,1
+205_c3,3,Clear and organized writing (2),2,rater2,1.5
+222_c0,0,Identification of Layers (2 Marks),2,rater2,2
+222_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,2.5
+222_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+222_c3,3,Examples/Protocols(1 Mark),1,rater2,0.5
+222_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+263_c0,0,Identification of Layers (2 Marks),2,rater2,2
+263_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,4
+263_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+263_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+263_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+368_c0,0,Understanding of Concept,4,rater2,3
+368_c1,1,Step-by-Step Procedure,4,rater2,3.5
+368_c2,2,Accuracy of Final Answer,4,rater2,3
+368_c3,3,Clarity & Presentation,4,rater2,3.5
+182_c0,0,Understanding of schema and instance (2),2,rater2,1.5
+182_c1,1,Explanation of different types of keys with examples (4),4,rater2,3
+182_c2,2,Correct identification of keys in given relation (2),2,rater2,0.75
+182_c3,3,Clear and organized writing (2),2,rater2,1.5
+27_c0,0,Definition of Quantization,2.5,rater2,2.5
+27_c1,1,Purpose of Quantization,2.5,rater2,2.5
+27_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater2,2.5
+27_c3,3,Boundary & Centroid Conditions,2.5,rater2,2.25
+101_c0,0,Concept of Histogram Equalization,4,rater2,4
+101_c1,1,Necessity of Histogram Equalization,4,rater2,4
+101_c2,2,Concept of Histogram Matching,4,rater2,4
+101_c3,3,Necessity of Histogram Matching,4,rater2,4
+358_c0,0,Understanding of Concept,4,rater2,3
+358_c1,1,Step-by-Step Procedure,4,rater2,3
+358_c2,2,Accuracy of Final Answer,4,rater2,2
+358_c3,3,Clarity & Presentation,4,rater2,3
+301_def,0,Definition of Data Mining,4,rater2,2
+301_kdd,1,KDD Process Steps,4,rater2,2
+301_c2,2,Importance of Data Mining Marks=(4),4,rater2,1
+301_ex,3,Example / Application,4,rater2,0.5
+110_c0,0,Defintion of climate and weather,2,rater2,2
+110_c1,1,Name of the climate variables,2,rater2,2
+110_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,0.5
+377_c0,0,Understanding of Concept,4,rater2,3.5
+377_c1,1,Step-by-Step Procedure,4,rater2,3
+377_c2,2,Accuracy of Final Answer,4,rater2,2.5
+377_c3,3,Clarity & Presentation,4,rater2,3.5
+432_c0,0,Supervised Learning,2.5,rater2,2.5
+432_c1,1,Unsupervised Learning,2.5,rater2,2.5
+432_c2,2,Reinforcement Learning,2.5,rater2,2.5
+432_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+277_c0,0,Identification of Layers (2 Marks),2,rater2,2
+277_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,3
+277_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+277_c3,3,Examples/Protocols(1 Mark),1,rater2,0.5
+277_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+169_c0,0,Understanding of normalization and related problems(3),3,rater2,1
+169_c1,1,Explanation of normal forms(3),3,rater2,2.5
+169_c2,2,Use of example(2),2,rater2,1
+169_c3,3,Clear and organized writing(2),2,rater2,1.5
+309_def,0,Definition of Data Mining,4,rater2,0.5
+309_kdd,1,KDD Process Steps,4,rater2,0.5
+309_c2,2,Importance of Data Mining Marks=(4),4,rater2,2
+309_ex,3,Example / Application,4,rater2,0.5
+469_c0,0,Definition of Method Overloading,4,rater2,4
+469_c1,1,Definition of Method Overriding,4,rater2,4
+469_c2,2,Comparision,4,rater2,2
+469_ex,3,Example / Application,4,rater2,2
+106_c0,0,Defintion of climate and weather,2,rater2,2
+106_c1,1,Name of the climate variables,2,rater2,2
+106_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,2
+475_c0,0,Definition of Method Overloading,4,rater2,4
+475_c1,1,Definition of Method Overriding,4,rater2,4
+475_c2,2,Comparision,4,rater2,4
+475_ex,3,Example / Application,4,rater2,1
+75_c0,0,Concept of Histogram Equalization,4,rater2,4
+75_c1,1,Necessity of Histogram Equalization,4,rater2,3
+75_c2,2,Concept of Histogram Matching,4,rater2,4
+75_c3,3,Necessity of Histogram Matching,4,rater2,3
+208_c0,0,Understanding of schema and instance (2),2,rater2,1.5
+208_c1,1,Explanation of different types of keys with examples (4),4,rater2,2.5
+208_c2,2,Correct identification of keys in given relation (2),2,rater2,1
+208_c3,3,Clear and organized writing (2),2,rater2,1.5
+351_c0,0,Understanding of Concept,4,rater2,2.5
+351_c1,1,Step-by-Step Procedure,4,rater2,2.5
+351_c2,2,Accuracy of Final Answer,4,rater2,2.5
+351_c3,3,Clarity & Presentation,4,rater2,3
+420_c0,0,Supervised Learning,2.5,rater2,2.5
+420_c1,1,Unsupervised Learning,2.5,rater2,2.5
+420_c2,2,Reinforcement Learning,2.5,rater2,2.5
+420_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,2.5
+127_c0,0,Defintion of climate and weather,2,rater2,2
+127_c1,1,Name of the climate variables,2,rater2,2
+127_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater2,0.5
+281_def,0,Definition of Data Mining,4,rater2,3
+281_kdd,1,KDD Process Steps,4,rater2,3
+281_c2,2,Importance of Data Mining Marks=(4),4,rater2,1.5
+281_ex,3,Example / Application,4,rater2,0.5
+259_c0,0,Identification of Layers (2 Marks),2,rater2,1.5
+259_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,2.5
+259_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+259_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+259_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+147_c0,0,Understanding of normalization and related problems(3),3,rater2,1
+147_c1,1,Explanation of normal forms(3),3,rater2,2.5
+147_c2,2,Use of example(2),2,rater2,1.5
+147_c3,3,Clear and organized writing(2),2,rater2,1.5
+392_c0,0,Understanding of Concept,4,rater2,3
+392_c1,1,Step-by-Step Procedure,4,rater2,3
+392_c2,2,Accuracy of Final Answer,4,rater2,2.5
+392_c3,3,Clarity & Presentation,4,rater2,3.5
+287_def,0,Definition of Data Mining,4,rater2,3
+287_kdd,1,KDD Process Steps,4,rater2,3.5
+287_c2,2,Importance of Data Mining Marks=(4),4,rater2,2.5
+287_ex,3,Example / Application,4,rater2,1
+161_c0,0,Understanding of normalization and related problems(3),3,rater2,3
+161_c1,1,Explanation of normal forms(3),3,rater2,3
+161_c2,2,Use of example(2),2,rater2,1.5
+161_c3,3,Clear and organized writing(2),2,rater2,1.75
+347_c0,0,Understanding of Concept,4,rater2,3
+347_c1,1,Step-by-Step Procedure,4,rater2,3
+347_c2,2,Accuracy of Final Answer,4,rater2,2.5
+347_c3,3,Clarity & Presentation,4,rater2,3.5
+443_c0,0,Supervised Learning,2.5,rater2,2.5
+443_c1,1,Unsupervised Learning,2.5,rater2,2
+443_c2,2,Reinforcement Learning,2.5,rater2,1
+443_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,1.5
+150_c0,0,Understanding of normalization and related problems(3),3,rater2,2
+150_c1,1,Explanation of normal forms(3),3,rater2,2
+150_c2,2,Use of example(2),2,rater2,1.5
+150_c3,3,Clear and organized writing(2),2,rater2,1.5
+264_c0,0,Identification of Layers (2 Marks),2,rater2,1.5
+264_c1,1,Explanation of Layers with diagram (4 Marks),4,rater2,3
+264_c2,2,Technical Accuracy (2 Marks),2,rater2,2
+264_c3,3,Examples/Protocols(1 Mark),1,rater2,1
+264_c4,4,Clarity & Organization (1 Mark),1,rater2,1
+298_def,0,Definition of Data Mining,4,rater2,4
+298_kdd,1,KDD Process Steps,4,rater2,4
+298_c2,2,Importance of Data Mining Marks=(4),4,rater2,3
+298_ex,3,Example / Application,4,rater2,4
+146_c0,0,Understanding of normalization and related problems(3),3,rater2,1
+146_c1,1,Explanation of normal forms(3),3,rater2,1
+146_c2,2,Use of example(2),2,rater2,1.5
+146_c3,3,Clear and organized writing(2),2,rater2,1
+395_c0,0,Understanding of Concept,4,rater2,3
+395_c1,1,Step-by-Step Procedure,4,rater2,3
+395_c2,2,Accuracy of Final Answer,4,rater2,2.5
+395_c3,3,Clarity & Presentation,4,rater2,3.5
+422_c0,0,Supervised Learning,2.5,rater2,2.5
+422_c1,1,Unsupervised Learning,2.5,rater2,2.5
+422_c2,2,Reinforcement Learning,2.5,rater2,1
+422_c3,3,"Example, Overall Clarity & Structure",2.5,rater2,1.5
+177_c0,0,Understanding of normalization and related problems(3),3,rater2,3
+177_c1,1,Explanation of normal forms(3),3,rater2,0.3
+177_c2,2,Use of example(2),2,rater2,0
+177_c3,3,Clear and organized writing(2),2,rater2,1.5
+316_def,0,Definition of Data Mining,4,rater2,3
+316_kdd,1,KDD Process Steps,4,rater2,3.5
+316_c2,2,Importance of Data Mining Marks=(4),4,rater2,3
+316_ex,3,Example / Application,4,rater2,1
+196_c0,0,Understanding of schema and instance (2),2,rater2,0.5
+196_c1,1,Explanation of different types of keys with examples (4),4,rater2,1.5
+196_c2,2,Correct identification of keys in given relation (2),2,rater2,0
+196_c3,3,Clear and organized writing (2),2,rater2,1.5
+440_c0,0,Supervised Learning,2.5,rater3,2
+440_c1,1,Unsupervised Learning,2.5,rater3,2.1
+440_c2,2,Reinforcement Learning,2.5,rater3,2
+440_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,2
+117_c0,0,Defintion of climate and weather,2,rater3,1.8
+117_c1,1,Name of the climate variables,2,rater3,0.8
+117_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1.5
+343_c0,0,Understanding of Concept,4,rater3,3
+343_c1,1,Step-by-Step Procedure,4,rater3,2
+343_c2,2,Accuracy of Final Answer,4,rater3,2
+343_c3,3,Clarity & Presentation,4,rater3,3
+99_c0,0,Concept of Histogram Equalization,4,rater3,3
+99_c1,1,Necessity of Histogram Equalization,4,rater3,3
+99_c2,2,Concept of Histogram Matching,4,rater3,2.9
+99_c3,3,Necessity of Histogram Matching,4,rater3,3
+189_c0,0,Understanding of schema and instance (2),2,rater3,1
+189_c1,1,Explanation of different types of keys with examples (4),4,rater3,2
+189_c2,2,Correct identification of keys in given relation (2),2,rater3,1
+189_c3,3,Clear and organized writing (2),2,rater3,0.4
+405_c0,0,Supervised Learning,2.5,rater3,2
+405_c1,1,Unsupervised Learning,2.5,rater3,2
+405_c2,2,Reinforcement Learning,2.5,rater3,2.2
+405_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,1.8
+337_c0,0,Understanding of Concept,4,rater3,3
+337_c1,1,Step-by-Step Procedure,4,rater3,3.1
+337_c2,2,Accuracy of Final Answer,4,rater3,3
+337_c3,3,Clarity & Presentation,4,rater3,3.4
+410_c0,0,Supervised Learning,2.5,rater3,2
+410_c1,1,Unsupervised Learning,2.5,rater3,2.2
+410_c2,2,Reinforcement Learning,2.5,rater3,2.4
+410_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,2.2
+463_c0,0,Supervised Learning,2.5,rater3,2.4
+463_c1,1,Unsupervised Learning,2.5,rater3,2
+463_c2,2,Reinforcement Learning,2.5,rater3,2.2
+463_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,1.15
+470_c0,0,Definition of Method Overloading,4,rater3,3
+470_c1,1,Definition of Method Overriding,4,rater3,3
+470_c2,2,Comparision,4,rater3,3.2
+470_ex,3,Example / Application,4,rater3,1
+320_def,0,Definition of Data Mining,4,rater3,0
+320_kdd,1,KDD Process Steps,4,rater3,0
+320_c2,2,Importance of Data Mining Marks=(4),4,rater3,0
+320_ex,3,Example / Application,4,rater3,0
+142_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+142_c1,1,Explanation of normal forms(3),3,rater3,0.5
+142_c2,2,Use of example(2),2,rater3,1
+142_c3,3,Clear and organized writing(2),2,rater3,1
+103_c0,0,Concept of Histogram Equalization,4,rater3,3
+103_c1,1,Necessity of Histogram Equalization,4,rater3,2
+103_c2,2,Concept of Histogram Matching,4,rater3,3
+103_c3,3,Necessity of Histogram Matching,4,rater3,3
+37_c0,0,Definition of Quantization,2.5,rater3,2
+37_c1,1,Purpose of Quantization,2.5,rater3,2.2
+37_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater3,1.05
+37_c3,3,Boundary & Centroid Conditions,2.5,rater3,1
+12_c0,0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,3,rater3,1
+12_c1,1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",3,rater3,0.52
+12_c2,2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,3,rater3,0
+12_c3,3,Enables comparison between models and overfitting issues,3,rater3,0
+247_c0,0,Identification of Layers (2 Marks),2,rater3,1.8
+247_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,3
+247_c2,2,Technical Accuracy (2 Marks),2,rater3,2
+247_c3,3,Examples/Protocols(1 Mark),1,rater3,1
+247_c4,4,Clarity & Organization (1 Mark),1,rater3,1
+291_def,0,Definition of Data Mining,4,rater3,2
+291_kdd,1,KDD Process Steps,4,rater3,1
+291_c2,2,Importance of Data Mining Marks=(4),4,rater3,2
+291_ex,3,Example / Application,4,rater3,2
+143_c0,0,Understanding of normalization and related problems(3),3,rater3,0.25
+143_c1,1,Explanation of normal forms(3),3,rater3,1
+143_c2,2,Use of example(2),2,rater3,1
+143_c3,3,Clear and organized writing(2),2,rater3,1
+268_c0,0,Identification of Layers (2 Marks),2,rater3,2
+268_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,0
+268_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+268_c3,3,Examples/Protocols(1 Mark),1,rater3,0
+268_c4,4,Clarity & Organization (1 Mark),1,rater3,0.5
+119_c0,0,Defintion of climate and weather,2,rater3,1.5
+119_c1,1,Name of the climate variables,2,rater3,0
+119_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1
+173_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+173_c1,1,Explanation of normal forms(3),3,rater3,2
+173_c2,2,Use of example(2),2,rater3,2
+173_c3,3,Clear and organized writing(2),2,rater3,1
+190_c0,0,Understanding of schema and instance (2),2,rater3,1
+190_c1,1,Explanation of different types of keys with examples (4),4,rater3,3
+190_c2,2,Correct identification of keys in given relation (2),2,rater3,1
+190_c3,3,Clear and organized writing (2),2,rater3,1.5
+228_c0,0,Identification of Layers (2 Marks),2,rater3,2
+228_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,0
+228_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+228_c3,3,Examples/Protocols(1 Mark),1,rater3,0.5
+228_c4,4,Clarity & Organization (1 Mark),1,rater3,1
+441_c0,0,Supervised Learning,2.5,rater3,2
+441_c1,1,Unsupervised Learning,2.5,rater3,2
+441_c2,2,Reinforcement Learning,2.5,rater3,2
+441_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,1
+481_c0,0,Definition of Method Overloading,4,rater3,3
+481_c1,1,Definition of Method Overriding,4,rater3,3
+481_c2,2,Comparision,4,rater3,2
+481_ex,3,Example / Application,4,rater3,3
+144_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+144_c1,1,Explanation of normal forms(3),3,rater3,2
+144_c2,2,Use of example(2),2,rater3,1
+144_c3,3,Clear and organized writing(2),2,rater3,2
+18_c0,0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,3,rater3,2
+18_c1,1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",3,rater3,1
+18_c2,2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,3,rater3,1
+18_c3,3,Enables comparison between models and overfitting issues,3,rater3,1
+479_c0,0,Definition of Method Overloading,4,rater3,3
+479_c1,1,Definition of Method Overriding,4,rater3,3
+479_c2,2,Comparision,4,rater3,1
+479_ex,3,Example / Application,4,rater3,2
+400_c0,0,Understanding of Concept,4,rater3,3
+400_c1,1,Step-by-Step Procedure,4,rater3,2
+400_c2,2,Accuracy of Final Answer,4,rater3,3
+400_c3,3,Clarity & Presentation,4,rater3,3.2
+216_c0,0,Identification of Layers (2 Marks),2,rater3,2
+216_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,1
+216_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+216_c3,3,Examples/Protocols(1 Mark),1,rater3,0.5
+216_c4,4,Clarity & Organization (1 Mark),1,rater3,1
+39_c0,0,Definition of Quantization,2.5,rater3,2
+39_c1,1,Purpose of Quantization,2.5,rater3,1
+39_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater3,1
+39_c3,3,Boundary & Centroid Conditions,2.5,rater3,1
+122_c0,0,Defintion of climate and weather,2,rater3,1
+122_c1,1,Name of the climate variables,2,rater3,1
+122_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1.5
+205_c0,0,Understanding of schema and instance (2),2,rater3,1
+205_c1,1,Explanation of different types of keys with examples (4),4,rater3,1
+205_c2,2,Correct identification of keys in given relation (2),2,rater3,0.5
+205_c3,3,Clear and organized writing (2),2,rater3,1
+222_c0,0,Identification of Layers (2 Marks),2,rater3,2
+222_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,1
+222_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+222_c3,3,Examples/Protocols(1 Mark),1,rater3,0.5
+222_c4,4,Clarity & Organization (1 Mark),1,rater3,0.5
+263_c0,0,Identification of Layers (2 Marks),2,rater3,2
+263_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,2
+263_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+263_c3,3,Examples/Protocols(1 Mark),1,rater3,0.7
+263_c4,4,Clarity & Organization (1 Mark),1,rater3,0.3
+368_c0,0,Understanding of Concept,4,rater3,2
+368_c1,1,Step-by-Step Procedure,4,rater3,2
+368_c2,2,Accuracy of Final Answer,4,rater3,2
+368_c3,3,Clarity & Presentation,4,rater3,1
+182_c0,0,Understanding of schema and instance (2),2,rater3,1
+182_c1,1,Explanation of different types of keys with examples (4),4,rater3,3
+182_c2,2,Correct identification of keys in given relation (2),2,rater3,2
+182_c3,3,Clear and organized writing (2),2,rater3,1
+27_c0,0,Definition of Quantization,2.5,rater3,2
+27_c1,1,Purpose of Quantization,2.5,rater3,2
+27_c2,2,Max-Lloyd Algorithm Explanation,2.5,rater3,2.2
+27_c3,3,Boundary & Centroid Conditions,2.5,rater3,2.3
+101_c0,0,Concept of Histogram Equalization,4,rater3,3
+101_c1,1,Necessity of Histogram Equalization,4,rater3,3
+101_c2,2,Concept of Histogram Matching,4,rater3,3
+101_c3,3,Necessity of Histogram Matching,4,rater3,2
+358_c0,0,Understanding of Concept,4,rater3,2
+358_c1,1,Step-by-Step Procedure,4,rater3,3
+358_c2,2,Accuracy of Final Answer,4,rater3,3
+358_c3,3,Clarity & Presentation,4,rater3,2
+301_def,0,Definition of Data Mining,4,rater3,3
+301_kdd,1,KDD Process Steps,4,rater3,2
+301_c2,2,Importance of Data Mining Marks=(4),4,rater3,1
+301_ex,3,Example / Application,4,rater3,1
+110_c0,0,Defintion of climate and weather,2,rater3,2
+110_c1,1,Name of the climate variables,2,rater3,1
+110_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1.5
+377_c0,0,Understanding of Concept,4,rater3,2
+377_c1,1,Step-by-Step Procedure,4,rater3,2
+377_c2,2,Accuracy of Final Answer,4,rater3,2.5
+377_c3,3,Clarity & Presentation,4,rater3,3
+432_c0,0,Supervised Learning,2.5,rater3,2
+432_c1,1,Unsupervised Learning,2.5,rater3,2.2
+432_c2,2,Reinforcement Learning,2.5,rater3,2.2
+432_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,2
+277_c0,0,Identification of Layers (2 Marks),2,rater3,2
+277_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,0
+277_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+277_c3,3,Examples/Protocols(1 Mark),1,rater3,0.5
+277_c4,4,Clarity & Organization (1 Mark),1,rater3,0.5
+169_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+169_c1,1,Explanation of normal forms(3),3,rater3,1
+169_c2,2,Use of example(2),2,rater3,1
+169_c3,3,Clear and organized writing(2),2,rater3,0.5
+309_def,0,Definition of Data Mining,4,rater3,1
+309_kdd,1,KDD Process Steps,4,rater3,1
+309_c2,2,Importance of Data Mining Marks=(4),4,rater3,1.5
+309_ex,3,Example / Application,4,rater3,1.5
+469_c0,0,Definition of Method Overloading,4,rater3,2
+469_c1,1,Definition of Method Overriding,4,rater3,1
+469_c2,2,Comparision,4,rater3,1
+469_ex,3,Example / Application,4,rater3,1.5
+106_c0,0,Defintion of climate and weather,2,rater3,1.5
+106_c1,1,Name of the climate variables,2,rater3,1
+106_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1.2
+475_c0,0,Definition of Method Overloading,4,rater3,3
+475_c1,1,Definition of Method Overriding,4,rater3,3
+475_c2,2,Comparision,4,rater3,2
+475_ex,3,Example / Application,4,rater3,1.5
+75_c0,0,Concept of Histogram Equalization,4,rater3,3
+75_c1,1,Necessity of Histogram Equalization,4,rater3,2
+75_c2,2,Concept of Histogram Matching,4,rater3,3.2
+75_c3,3,Necessity of Histogram Matching,4,rater3,2.9
+208_c0,0,Understanding of schema and instance (2),2,rater3,1.5
+208_c1,1,Explanation of different types of keys with examples (4),4,rater3,1
+208_c2,2,Correct identification of keys in given relation (2),2,rater3,1
+208_c3,3,Clear and organized writing (2),2,rater3,1
+351_c0,0,Understanding of Concept,4,rater3,3
+351_c1,1,Step-by-Step Procedure,4,rater3,2
+351_c2,2,Accuracy of Final Answer,4,rater3,2.5
+351_c3,3,Clarity & Presentation,4,rater3,2
+420_c0,0,Supervised Learning,2.5,rater3,2
+420_c1,1,Unsupervised Learning,2.5,rater3,2.2
+420_c2,2,Reinforcement Learning,2.5,rater3,2.3
+420_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,1.6
+127_c0,0,Defintion of climate and weather,2,rater3,2
+127_c1,1,Name of the climate variables,2,rater3,1
+127_c2,2,Hemato-biochemical changes in rohu due to an increase of temparature,2,rater3,1.6
+281_def,0,Definition of Data Mining,4,rater3,3
+281_kdd,1,KDD Process Steps,4,rater3,2
+281_c2,2,Importance of Data Mining Marks=(4),4,rater3,2
+281_ex,3,Example / Application,4,rater3,2
+259_c0,0,Identification of Layers (2 Marks),2,rater3,2
+259_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,0
+259_c2,2,Technical Accuracy (2 Marks),2,rater3,2
+259_c3,3,Examples/Protocols(1 Mark),1,rater3,1
+259_c4,4,Clarity & Organization (1 Mark),1,rater3,0.6
+147_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+147_c1,1,Explanation of normal forms(3),3,rater3,1
+147_c2,2,Use of example(2),2,rater3,1.2
+147_c3,3,Clear and organized writing(2),2,rater3,1.6
+392_c0,0,Understanding of Concept,4,rater3,3
+392_c1,1,Step-by-Step Procedure,4,rater3,3.2
+392_c2,2,Accuracy of Final Answer,4,rater3,2.5
+392_c3,3,Clarity & Presentation,4,rater3,2.6
+287_def,0,Definition of Data Mining,4,rater3,3
+287_kdd,1,KDD Process Steps,4,rater3,3
+287_c2,2,Importance of Data Mining Marks=(4),4,rater3,2
+287_ex,3,Example / Application,4,rater3,1.2
+161_c0,0,Understanding of normalization and related problems(3),3,rater3,2.6
+161_c1,1,Explanation of normal forms(3),3,rater3,2
+161_c2,2,Use of example(2),2,rater3,1.6
+161_c3,3,Clear and organized writing(2),2,rater3,1.6
+347_c0,0,Understanding of Concept,4,rater3,3
+347_c1,1,Step-by-Step Procedure,4,rater3,3.6
+347_c2,2,Accuracy of Final Answer,4,rater3,3.8
+347_c3,3,Clarity & Presentation,4,rater3,2.15
+443_c0,0,Supervised Learning,2.5,rater3,2
+443_c1,1,Unsupervised Learning,2.5,rater3,2.2
+443_c2,2,Reinforcement Learning,2.5,rater3,0
+443_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,2
+150_c0,0,Understanding of normalization and related problems(3),3,rater3,2.9
+150_c1,1,Explanation of normal forms(3),3,rater3,2
+150_c2,2,Use of example(2),2,rater3,1
+150_c3,3,Clear and organized writing(2),2,rater3,1
+264_c0,0,Identification of Layers (2 Marks),2,rater3,2
+264_c1,1,Explanation of Layers with diagram (4 Marks),4,rater3,0
+264_c2,2,Technical Accuracy (2 Marks),2,rater3,1
+264_c3,3,Examples/Protocols(1 Mark),1,rater3,0.9
+264_c4,4,Clarity & Organization (1 Mark),1,rater3,1
+298_def,0,Definition of Data Mining,4,rater3,3
+298_kdd,1,KDD Process Steps,4,rater3,3
+298_c2,2,Importance of Data Mining Marks=(4),4,rater3,3
+298_ex,3,Example / Application,4,rater3,3.2
+146_c0,0,Understanding of normalization and related problems(3),3,rater3,1.9
+146_c1,1,Explanation of normal forms(3),3,rater3,2
+146_c2,2,Use of example(2),2,rater3,1
+146_c3,3,Clear and organized writing(2),2,rater3,0.3
+395_c0,0,Understanding of Concept,4,rater3,3
+395_c1,1,Step-by-Step Procedure,4,rater3,3.2
+395_c2,2,Accuracy of Final Answer,4,rater3,2.3
+395_c3,3,Clarity & Presentation,4,rater3,3.2
+422_c0,0,Supervised Learning,2.5,rater3,2.4
+422_c1,1,Unsupervised Learning,2.5,rater3,2
+422_c2,2,Reinforcement Learning,2.5,rater3,2.3
+422_c3,3,"Example, Overall Clarity & Structure",2.5,rater3,2
+177_c0,0,Understanding of normalization and related problems(3),3,rater3,2
+177_c1,1,Explanation of normal forms(3),3,rater3,1
+177_c2,2,Use of example(2),2,rater3,1
+177_c3,3,Clear and organized writing(2),2,rater3,1.6
+316_def,0,Definition of Data Mining,4,rater3,3
+316_kdd,1,KDD Process Steps,4,rater3,3
+316_c2,2,Importance of Data Mining Marks=(4),4,rater3,2.3
+316_ex,3,Example / Application,4,rater3,1
+196_c0,0,Understanding of schema and instance (2),2,rater3,1
+196_c1,1,Explanation of different types of keys with examples (4),4,rater3,3
+196_c2,2,Correct identification of keys in given relation (2),2,rater3,1
+196_c3,3,Clear and organized writing (2),2,rater3,1.6
