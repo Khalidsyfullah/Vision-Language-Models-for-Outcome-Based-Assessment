@@ -1,0 +1,29 @@
+# Core (GPU experiments)
+torch>=2.3,<3
+transformers>=4.49,<5
+accelerate>=0.30,<2
+peft>=0.11,<1
+datasets>=2.19,<5
+huggingface_hub>=0.23,<1
+hf_transfer>=0.1,<1
+pillow>=10,<13
+PyMuPDF>=1.24,<2       # dataset generation from PDF submissions
+einops>=0.7,<1
+timm>=1,<2
+sentencepiece>=0.2,<1   # Donut's XLM-RoBERTa tokenizer
+protobuf>=4,<8          # ditto
+
+# Analysis / studies (CPU-only machines need only these + pillow + datasets)
+numpy>=1.26,<3
+pandas>=2,<4
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+pyyaml>=6,<7
+openpyxl>=3.1,<4        # xlsx output
+pyarrow>=15,<26         # local parquet loading
+tqdm>=4.66,<5
+
+# Optional, only when model_loading.load_in_4bit/load_in_8bit is enabled:
+# bitsandbytes>=0.43,<1
