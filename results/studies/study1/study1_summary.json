@@ -1,0 +1,5 @@
+{
+  "n_runs": 20,
+  "adjacent_tolerance": 1.0,
+  "score_resolution": 0.05
+}

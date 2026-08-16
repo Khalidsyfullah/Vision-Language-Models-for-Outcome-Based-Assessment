@@ -1,0 +1,34 @@
+[
+  {
+    "teacher_id":"tid1",
+    "explanation_clear":1.8,
+    "explanation_faithful":1.7,
+    "trust_score":1.4,
+    "useful_workflow":1.7,
+    "would_adopt":1.7
+  },
+  {
+    "teacher_id":"tid2",
+    "explanation_clear":3.4,
+    "explanation_faithful":3.2,
+    "trust_score":3.0,
+    "useful_workflow":3.1,
+    "would_adopt":2.9
+  },
+  {
+    "teacher_id":"tid3",
+    "explanation_clear":4.3,
+    "explanation_faithful":4.0,
+    "trust_score":4.2,
+    "useful_workflow":4.6,
+    "would_adopt":4.6
+  },
+  {
+    "teacher_id":"tid4",
+    "explanation_clear":3.5,
+    "explanation_faithful":3.9,
+    "trust_score":3.5,
+    "useful_workflow":3.7,
+    "would_adopt":3.3
+  }
+]

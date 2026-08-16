@@ -1,0 +1,6 @@
+question_key,count,mean,std,median,pct_favourable
+explanation_clear,40,3.25,1.1712364713391021,3.5,0.5
+explanation_faithful,40,3.2,1.2850221987506876,3.5,0.5
+trust_score,40,3.025,1.3104608701932663,3.0,0.425
+useful_workflow,40,3.275,1.2807750057619862,3.0,0.475
+would_adopt,40,3.125,1.2442173938170626,3.0,0.325

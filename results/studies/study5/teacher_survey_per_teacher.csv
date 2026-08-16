@@ -1,0 +1,5 @@
+teacher_id,explanation_clear,explanation_faithful,trust_score,useful_workflow,would_adopt
+tid1,1.8,1.7,1.4,1.7,1.7
+tid2,3.4,3.2,3.0,3.1,2.9
+tid3,4.3,4.0,4.2,4.6,4.6
+tid4,3.5,3.9,3.5,3.7,3.3

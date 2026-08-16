@@ -1,0 +1,121 @@
+example_id,criterion_name,mask_fraction,score_full,score_del_top,score_del_random,comprehensiveness,random_effect,faithful
+169_c1,Explanation of normal forms(3),0.1,2.0,2.0,2.0,0.0,0.0,False
+169_c1,Explanation of normal forms(3),0.2,2.0,1.0,2.0,1.0,0.0,True
+169_c1,Explanation of normal forms(3),0.3,2.0,1.0,2.0,1.0,0.0,True
+169_c1,Explanation of normal forms(3),0.5,2.0,2.0,2.0,0.0,0.0,False
+368_c0,Understanding of Concept,0.1,3.0,3.0,3.0,0.0,0.0,False
+368_c0,Understanding of Concept,0.2,3.0,3.0,3.0,0.0,0.0,False
+368_c0,Understanding of Concept,0.3,3.0,3.0,4.0,0.0,1.0,False
+368_c0,Understanding of Concept,0.5,3.0,3.0,3.0,0.0,0.0,False
+400_c2,Accuracy of Final Answer,0.1,3.0,3.0,3.0,0.0,0.0,False
+400_c2,Accuracy of Final Answer,0.2,3.0,3.0,3.0,0.0,0.0,False
+400_c2,Accuracy of Final Answer,0.3,3.0,3.0,3.0,0.0,0.0,False
+400_c2,Accuracy of Final Answer,0.5,3.0,3.0,3.0,0.0,0.0,False
+259_c4,Clarity & Organization (1 Mark),0.1,1.0,1.0,1.0,0.0,0.0,False
+259_c4,Clarity & Organization (1 Mark),0.2,1.0,0.0,1.0,1.0,0.0,True
+259_c4,Clarity & Organization (1 Mark),0.3,1.0,0.0,1.0,1.0,0.0,True
+259_c4,Clarity & Organization (1 Mark),0.5,1.0,0.0,1.0,1.0,0.0,True
+337_c0,Understanding of Concept,0.1,4.0,4.0,4.0,0.0,0.0,False
+337_c0,Understanding of Concept,0.2,4.0,4.0,4.0,0.0,0.0,False
+337_c0,Understanding of Concept,0.3,4.0,4.0,4.0,0.0,0.0,False
+337_c0,Understanding of Concept,0.5,4.0,4.0,3.0,0.0,1.0,False
+337_c2,Accuracy of Final Answer,0.1,3.0,3.0,3.0,0.0,0.0,False
+337_c2,Accuracy of Final Answer,0.2,3.0,3.0,3.0,0.0,0.0,False
+337_c2,Accuracy of Final Answer,0.3,3.0,3.0,3.0,0.0,0.0,False
+337_c2,Accuracy of Final Answer,0.5,3.0,3.0,3.0,0.0,0.0,False
+37_c0,Definition of Quantization,0.1,2.5,2.5,2.5,0.0,0.0,False
+37_c0,Definition of Quantization,0.2,2.5,2.5,2.5,0.0,0.0,False
+37_c0,Definition of Quantization,0.3,2.5,2.5,2.5,0.0,0.0,False
+37_c0,Definition of Quantization,0.5,2.5,2.5,2.5,0.0,0.0,False
+392_c3,Clarity & Presentation,0.1,4.0,3.0,3.0,1.0,1.0,False
+392_c3,Clarity & Presentation,0.2,4.0,3.0,3.0,1.0,1.0,False
+392_c3,Clarity & Presentation,0.3,4.0,3.0,3.0,1.0,1.0,False
+392_c3,Clarity & Presentation,0.5,4.0,3.0,3.0,1.0,1.0,False
+420_c3,"Example, Overall Clarity & Structure",0.1,2.5,1.5,2.0,1.0,0.5,True
+420_c3,"Example, Overall Clarity & Structure",0.2,2.5,1.5,2.5,1.0,0.0,True
+420_c3,"Example, Overall Clarity & Structure",0.3,2.5,1.5,1.5,1.0,1.0,False
+420_c3,"Example, Overall Clarity & Structure",0.5,2.5,1.5,1.5,1.0,1.0,False
+309_def,Definition of Data Mining,0.1,0.0,0.0,0.0,0.0,0.0,False
+309_def,Definition of Data Mining,0.2,0.0,1.0,0.0,1.0,0.0,True
+309_def,Definition of Data Mining,0.3,0.0,3.0,0.0,3.0,0.0,True
+309_def,Definition of Data Mining,0.5,0.0,3.0,2.0,3.0,2.0,True
+470_c0,Definition of Method Overloading,0.1,3.0,3.0,3.0,0.0,0.0,False
+470_c0,Definition of Method Overloading,0.2,3.0,3.0,3.0,0.0,0.0,False
+470_c0,Definition of Method Overloading,0.3,3.0,3.0,3.0,0.0,0.0,False
+470_c0,Definition of Method Overloading,0.5,3.0,3.0,4.0,0.0,1.0,False
+37_c3,Boundary & Centroid Conditions,0.1,2.5,2.5,2.5,0.0,0.0,False
+37_c3,Boundary & Centroid Conditions,0.2,2.5,2.5,2.5,0.0,0.0,False
+37_c3,Boundary & Centroid Conditions,0.3,2.5,2.5,2.5,0.0,0.0,False
+37_c3,Boundary & Centroid Conditions,0.5,2.5,2.5,2.5,0.0,0.0,False
+298_ex,Example / Application,0.1,4.0,0.0,0.0,4.0,4.0,False
+298_ex,Example / Application,0.2,4.0,0.0,0.0,4.0,4.0,False
+298_ex,Example / Application,0.3,4.0,0.0,0.0,4.0,4.0,False
+298_ex,Example / Application,0.5,4.0,0.0,0.0,4.0,4.0,False
+263_c4,Clarity & Organization (1 Mark),0.1,1.0,0.0,0.0,1.0,1.0,False
+263_c4,Clarity & Organization (1 Mark),0.2,1.0,0.0,0.0,1.0,1.0,False
+263_c4,Clarity & Organization (1 Mark),0.3,1.0,0.0,0.0,1.0,1.0,False
+263_c4,Clarity & Organization (1 Mark),0.5,1.0,0.0,0.0,1.0,1.0,False
+392_c1,Step-by-Step Procedure,0.1,4.0,3.0,3.0,1.0,1.0,False
+392_c1,Step-by-Step Procedure,0.2,4.0,3.0,3.0,1.0,1.0,False
+392_c1,Step-by-Step Procedure,0.3,4.0,3.0,3.0,1.0,1.0,False
+392_c1,Step-by-Step Procedure,0.5,4.0,3.0,3.0,1.0,1.0,False
+281_c2,Importance of Data Mining Marks=(4),0.1,0.0,0.0,0.0,0.0,0.0,False
+281_c2,Importance of Data Mining Marks=(4),0.2,0.0,0.0,0.0,0.0,0.0,False
+281_c2,Importance of Data Mining Marks=(4),0.3,0.0,0.0,0.0,0.0,0.0,False
+281_c2,Importance of Data Mining Marks=(4),0.5,0.0,0.0,4.0,0.0,4.0,False
+144_c3,Clear and organized writing(2),0.1,1.0,1.0,1.0,0.0,0.0,False
+144_c3,Clear and organized writing(2),0.2,1.0,1.0,1.0,0.0,0.0,False
+144_c3,Clear and organized writing(2),0.3,1.0,1.0,1.0,0.0,0.0,False
+144_c3,Clear and organized writing(2),0.5,1.0,1.0,1.0,0.0,0.0,False
+475_ex,Example / Application,0.1,0.0,0.0,0.0,0.0,0.0,False
+475_ex,Example / Application,0.2,0.0,0.0,4.0,0.0,4.0,False
+475_ex,Example / Application,0.3,0.0,4.0,4.0,4.0,4.0,False
+475_ex,Example / Application,0.5,0.0,4.0,4.0,4.0,4.0,False
+196_c0,Understanding of schema and instance (2),0.1,2.0,1.0,2.0,1.0,0.0,True
+196_c0,Understanding of schema and instance (2),0.2,2.0,1.0,2.0,1.0,0.0,True
+196_c0,Understanding of schema and instance (2),0.3,2.0,1.0,2.0,1.0,0.0,True
+196_c0,Understanding of schema and instance (2),0.5,2.0,1.0,2.0,1.0,0.0,True
+400_c3,Clarity & Presentation,0.1,3.0,3.0,3.0,0.0,0.0,False
+400_c3,Clarity & Presentation,0.2,3.0,3.0,3.0,0.0,0.0,False
+400_c3,Clarity & Presentation,0.3,3.0,3.0,3.0,0.0,0.0,False
+400_c3,Clarity & Presentation,0.5,3.0,3.0,3.0,0.0,0.0,False
+205_c0,Understanding of schema and instance (2),0.1,1.0,1.0,1.0,0.0,0.0,False
+205_c0,Understanding of schema and instance (2),0.2,1.0,1.0,1.0,0.0,0.0,False
+205_c0,Understanding of schema and instance (2),0.3,1.0,1.0,1.0,0.0,0.0,False
+205_c0,Understanding of schema and instance (2),0.5,1.0,1.0,1.0,0.0,0.0,False
+101_c3,Necessity of Histogram Matching,0.1,2.0,2.0,2.0,0.0,0.0,False
+101_c3,Necessity of Histogram Matching,0.2,2.0,3.0,2.0,1.0,0.0,True
+101_c3,Necessity of Histogram Matching,0.3,2.0,2.0,3.0,0.0,1.0,False
+101_c3,Necessity of Histogram Matching,0.5,2.0,2.0,3.0,0.0,1.0,False
+122_c0,Defintion of climate and weather,0.1,2.0,2.0,2.0,0.0,0.0,False
+122_c0,Defintion of climate and weather,0.2,2.0,2.0,2.0,0.0,0.0,False
+122_c0,Defintion of climate and weather,0.3,2.0,2.0,2.0,0.0,0.0,False
+122_c0,Defintion of climate and weather,0.5,2.0,2.0,2.0,0.0,0.0,False
+263_c3,Examples/Protocols(1 Mark),0.1,1.0,1.0,1.0,0.0,0.0,False
+263_c3,Examples/Protocols(1 Mark),0.2,1.0,1.0,1.0,0.0,0.0,False
+263_c3,Examples/Protocols(1 Mark),0.3,1.0,1.0,1.0,0.0,0.0,False
+263_c3,Examples/Protocols(1 Mark),0.5,1.0,1.0,1.0,0.0,0.0,False
+75_c1,Necessity of Histogram Equalization,0.1,1.0,2.0,1.0,1.0,0.0,True
+75_c1,Necessity of Histogram Equalization,0.2,1.0,2.0,2.0,1.0,1.0,False
+75_c1,Necessity of Histogram Equalization,0.3,1.0,2.0,1.0,1.0,0.0,True
+75_c1,Necessity of Histogram Equalization,0.5,1.0,2.0,3.0,1.0,2.0,False
+298_kdd,KDD Process Steps,0.1,4.0,3.0,3.0,1.0,1.0,False
+298_kdd,KDD Process Steps,0.2,4.0,3.0,4.0,1.0,0.0,True
+298_kdd,KDD Process Steps,0.3,4.0,4.0,4.0,0.0,0.0,False
+298_kdd,KDD Process Steps,0.5,4.0,4.0,4.0,0.0,0.0,False
+475_c0,Definition of Method Overloading,0.1,3.0,3.0,3.0,0.0,0.0,False
+475_c0,Definition of Method Overloading,0.2,3.0,3.0,3.0,0.0,0.0,False
+475_c0,Definition of Method Overloading,0.3,3.0,4.0,4.0,1.0,1.0,False
+475_c0,Definition of Method Overloading,0.5,3.0,3.0,4.0,0.0,1.0,False
+377_c2,Accuracy of Final Answer,0.1,3.0,3.0,3.0,0.0,0.0,False
+377_c2,Accuracy of Final Answer,0.2,3.0,3.0,3.0,0.0,0.0,False
+377_c2,Accuracy of Final Answer,0.3,3.0,3.0,3.0,0.0,0.0,False
+377_c2,Accuracy of Final Answer,0.5,3.0,3.0,3.0,0.0,0.0,False
+146_c0,Understanding of normalization and related problems(3),0.1,2.5,2.5,2.5,0.0,0.0,False
+146_c0,Understanding of normalization and related problems(3),0.2,2.5,2.5,3.0,0.0,0.5,False
+146_c0,Understanding of normalization and related problems(3),0.3,2.5,2.0,3.0,0.5,0.5,False
+146_c0,Understanding of normalization and related problems(3),0.5,2.5,2.0,3.0,0.5,0.5,False
+208_c3,Clear and organized writing (2),0.1,1.0,1.0,1.0,0.0,0.0,False
+208_c3,Clear and organized writing (2),0.2,1.0,1.0,1.0,0.0,0.0,False
+208_c3,Clear and organized writing (2),0.3,1.0,1.0,1.0,0.0,0.0,False
+208_c3,Clear and organized writing (2),0.5,1.0,1.0,1.0,0.0,0.0,False

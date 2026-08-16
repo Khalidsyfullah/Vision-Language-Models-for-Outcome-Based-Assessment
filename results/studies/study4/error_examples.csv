@@ -1,0 +1,704 @@
+model,regime,example_id,criterion_name,criterion_type,true_score,pred_score,failure_class,raw_output
+donut,few_shot,440_c0,Supervised Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,440_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,440_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,440_c3,"Example, Overall Clarity & Structure",structure_clarity,1.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,117_c0,Defintion of climate and weather,definition_theory,2.0,,parse_failure,", .com.com.com.com.com.com."
+donut,few_shot,117_c1,Name of the climate variables,definition_theory,0.0,,parse_failure,", .com.com.com. . . ."
+donut,few_shot,117_c2,Hemato-biochemical changes in rohu due to an increase of temparature,definition_theory,1.75,,parse_failure,", . .com. . . . ."
+donut,few_shot,343_c0,Understanding of Concept,numerical,4.0,,parse_failure,
+donut,few_shot,343_c1,Step-by-Step Procedure,numerical,4.0,,parse_failure,","
+donut,few_shot,343_c2,Accuracy of Final Answer,numerical,4.0,,parse_failure,
+donut,few_shot,343_c3,Clarity & Presentation,numerical,4.0,,parse_failure,","
+donut,few_shot,99_c0,Concept of Histogram Equalization,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>
+donut,few_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,,parse_failure,.>>>>>>>>>>>>>
+donut,few_shot,99_c2,Concept of Histogram Matching,definition_theory,2.0,,parse_failure,", .>>>>>>>>>>>>"
+donut,few_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,,parse_failure,", .>>>>>>>>>>>>"
+donut,few_shot,189_c0,Understanding of schema and instance (2),application,1.0,,parse_failure,. S.>>>>>>>>>>>>
+donut,few_shot,189_c1,Explanation of different types of keys with examples (4),application,2.0,,parse_failure,. S. S. S. S. S. S. SUN
+donut,few_shot,189_c2,Correct identification of keys in given relation (2),application,1.0,,parse_failure,", S. S. S. S. S. S. SUN"
+donut,few_shot,189_c3,Clear and organized writing (2),structure_clarity,1.0,,parse_failure,", S. S. S. SUNKing>>>>"
+donut,few_shot,405_c0,Supervised Learning,definition_theory,2.5,,parse_failure,", , , , .com/c, ,"
+donut,few_shot,405_c1,Unsupervised Learning,definition_theory,2.5,,parse_failure,", .com/c, .com/c, ,"
+donut,few_shot,405_c2,Reinforcement Learning,definition_theory,2.5,,parse_failure,", .com/c, .com/c, ,"
+donut,few_shot,405_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,", .com/c, .com/c, ,"
+donut,few_shot,337_c0,Understanding of Concept,numerical,3.0,,parse_failure,
+donut,few_shot,337_c1,Step-by-Step Procedure,numerical,4.0,,parse_failure,", 0. 0. 0. 0. 0. 0. 0."
+donut,few_shot,337_c2,Accuracy of Final Answer,numerical,3.0,,parse_failure,
+donut,few_shot,337_c3,Clarity & Presentation,numerical,4.0,,parse_failure,", 0. 0. 0. 0. 0. 0. 0."
+donut,few_shot,410_c0,Supervised Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,few_shot,410_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,few_shot,410_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,few_shot,410_c3,"Example, Overall Clarity & Structure",structure_clarity,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,few_shot,463_c0,Supervised Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,463_c1,Unsupervised Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,463_c2,Reinforcement Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,463_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,470_c0,Definition of Method Overloading,application,1.0,,parse_failure,", |||||||||||||"
+donut,few_shot,470_c1,Definition of Method Overriding,application,0.0,,parse_failure,|| | |||||||||
+donut,few_shot,470_c2,Comparision,application,3.0,,parse_failure,| | ||| ||||||
+donut,few_shot,470_ex,Example / Application,application,4.0,,parse_failure,| | | | | | |
+donut,few_shot,320_def,Definition of Data Mining,definition_theory,0.0,,parse_failure,s: </> (Base: </> Date:
+donut,few_shot,320_kdd,KDD Process Steps,definition_theory,0.0,,parse_failure,.> (Expressed.: .: .:
+donut,few_shot,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,,parse_failure,: </> : </> : </</</</</
+donut,few_shot,320_ex,Example / Application,application,0.0,,parse_failure,: </> (Exe: </> (Exe:
+donut,few_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,,parse_failure,||||||||||||||
+donut,few_shot,142_c1,Explanation of normal forms(3),definition_theory,1.5,,parse_failure,||||||||||||||
+donut,few_shot,142_c2,Use of example(2),application,2.0,,parse_failure,||||||||||||||
+donut,few_shot,142_c3,Clear and organized writing(2),structure_clarity,1.7999999523162842,,parse_failure,||||||||||||||
+donut,few_shot,103_c0,Concept of Histogram Equalization,definition_theory,3.0,,parse_failure,. . . . . . .
+donut,few_shot,103_c1,Necessity of Histogram Equalization,definition_theory,2.0,,parse_failure,. . . . . . .
+donut,few_shot,103_c2,Concept of Histogram Matching,definition_theory,3.0,,parse_failure,. . . . . . .
+donut,few_shot,103_c3,Necessity of Histogram Matching,definition_theory,2.0,,parse_failure,. . . . . . .
+donut,few_shot,37_c0,Definition of Quantization,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,37_c1,Purpose of Quantization,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,37_c2,Max-Lloyd Algorithm Explanation,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,37_c3,Boundary & Centroid Conditions,definition_theory,1.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,few_shot,12_c0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,numerical,2.0,,parse_failure,", . . ' ' ' ' ''''''"
+donut,few_shot,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,,parse_failure,. . . . . . .
+donut,few_shot,12_c2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,numerical,0.5,,parse_failure,. . . . . . .
+donut,few_shot,12_c3,Enables comparison between models and overfitting issues,numerical,0.5,,parse_failure,. . . . . . .
+donut,few_shot,247_c0,Identification of Layers (2 Marks),application,2.0,,parse_failure,","" .com.com.com.com.com.com"
+donut,full,440_c0,Supervised Learning,definition_theory,2.0,,parse_failure,
+donut,full,440_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,
+donut,full,440_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,
+donut,full,117_c0,Defintion of climate and weather,definition_theory,2.0,,parse_failure,
+donut,full,117_c1,Name of the climate variables,definition_theory,0.0,,parse_failure,
+donut,full,117_c2,Hemato-biochemical changes in rohu due to an increase of temparature,definition_theory,1.75,,parse_failure,
+donut,full,343_c0,Understanding of Concept,numerical,4.0,,parse_failure,
+donut,full,343_c2,Accuracy of Final Answer,numerical,4.0,,parse_failure,
+donut,full,99_c3,Necessity of Histogram Matching,definition_theory,1.0,,parse_failure,
+donut,full,189_c2,Correct identification of keys in given relation (2),application,1.0,,parse_failure,
+donut,full,189_c3,Clear and organized writing (2),structure_clarity,1.0,,parse_failure,
+donut,full,337_c0,Understanding of Concept,numerical,3.0,,parse_failure,
+donut,full,337_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,2
+donut,full,337_c2,Accuracy of Final Answer,numerical,3.0,,parse_failure,
+donut,full,463_c0,Supervised Learning,definition_theory,2.5,,parse_failure,
+donut,full,463_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,
+donut,full,470_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,2
+donut,full,470_ex,Example / Application,application,4.0,2.0,underscore_large,2
+donut,full,320_def,Definition of Data Mining,definition_theory,0.0,2.0,overscore_large,2
+donut,full,320_kdd,KDD Process Steps,definition_theory,0.0,,parse_failure,
+donut,full,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,,parse_failure,
+donut,full,320_ex,Example / Application,application,0.0,,parse_failure,
+donut,full,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,,parse_failure,
+donut,full,142_c1,Explanation of normal forms(3),definition_theory,1.5,,parse_failure,0 3
+donut,full,142_c3,Clear and organized writing(2),structure_clarity,1.7999999523162842,,parse_failure,
+donut,full,103_c0,Concept of Histogram Equalization,definition_theory,3.0,,parse_failure,
+donut,full,103_c1,Necessity of Histogram Equalization,definition_theory,2.0,,parse_failure,
+donut,full,103_c2,Concept of Histogram Matching,definition_theory,3.0,,parse_failure,
+donut,full,103_c3,Necessity of Histogram Matching,definition_theory,2.0,,parse_failure,
+donut,full,37_c2,Max-Lloyd Algorithm Explanation,definition_theory,2.5,,parse_failure,
+donut,full,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,2
+donut,full,247_c1,Explanation of Layers with diagram (4 Marks),diagram,4.0,,parse_failure,
+donut,full,291_def,Definition of Data Mining,definition_theory,2.0,,parse_failure,
+donut,full,291_kdd,KDD Process Steps,definition_theory,3.0,,parse_failure,
+donut,full,291_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,,parse_failure,
+donut,full,291_ex,Example / Application,application,0.0,,parse_failure,
+donut,full,143_c0,Understanding of normalization and related problems(3),definition_theory,1.5,,parse_failure,
+donut,full,143_c1,Explanation of normal forms(3),definition_theory,1.0,,parse_failure,
+donut,full,143_c2,Use of example(2),application,1.0,,parse_failure,
+donut,full,143_c3,Clear and organized writing(2),structure_clarity,0.5,,parse_failure,
+donut,full,119_c0,Defintion of climate and weather,definition_theory,2.0,,parse_failure,
+donut,full,119_c1,Name of the climate variables,definition_theory,2.0,,parse_failure,
+donut,full,119_c2,Hemato-biochemical changes in rohu due to an increase of temparature,definition_theory,1.25,,parse_failure,
+donut,full,173_c1,Explanation of normal forms(3),definition_theory,3.0,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,full,173_c2,Use of example(2),application,2.0,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,full,173_c3,Clear and organized writing(2),structure_clarity,1.5,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,full,190_c0,Understanding of schema and instance (2),application,2.0,,parse_failure,
+donut,full,190_c1,Explanation of different types of keys with examples (4),application,3.0,,parse_failure,
+donut,full,190_c2,Correct identification of keys in given relation (2),application,2.0,,parse_failure,
+donut,full,190_c3,Clear and organized writing (2),structure_clarity,2.0,,parse_failure,
+donut,full,228_c1,Explanation of Layers with diagram (4 Marks),diagram,3.0,,parse_failure,
+donut,full,481_c0,Definition of Method Overloading,application,3.0,,parse_failure,
+donut,full,481_c1,Definition of Method Overriding,application,0.0,,parse_failure,
+donut,full,481_c2,Comparision,application,4.0,2.0,underscore_large,2
+donut,full,481_ex,Example / Application,application,4.0,2.0,underscore_large,2
+donut,full,144_c1,Explanation of normal forms(3),definition_theory,1.0,,parse_failure,
+donut,full,144_c3,Clear and organized writing(2),structure_clarity,1.0,,parse_failure,
+donut,full,18_c0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,numerical,2.0,,parse_failure,
+donut,full,18_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,,parse_failure,
+donut,full,18_c2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,numerical,0.0,,parse_failure,
+donut,lora,343_c0,Understanding of Concept,numerical,4.0,,parse_failure,
+donut,lora,343_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,2
+donut,lora,343_c2,Accuracy of Final Answer,numerical,4.0,,parse_failure,
+donut,lora,343_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,2
+donut,lora,405_c0,Supervised Learning,definition_theory,2.5,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,405_c1,Unsupervised Learning,definition_theory,2.5,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,405_c2,Reinforcement Learning,definition_theory,2.5,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,405_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,337_c0,Understanding of Concept,numerical,3.0,,parse_failure,
+donut,lora,337_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,2
+donut,lora,337_c2,Accuracy of Final Answer,numerical,3.0,,parse_failure,
+donut,lora,337_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,2
+donut,lora,410_c0,Supervised Learning,definition_theory,2.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,410_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,410_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,410_c3,"Example, Overall Clarity & Structure",structure_clarity,2.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,463_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,
+donut,lora,470_c0,Definition of Method Overloading,application,1.0,,parse_failure,2 1
+donut,lora,470_c1,Definition of Method Overriding,application,0.0,,parse_failure,2 1
+donut,lora,470_ex,Example / Application,application,4.0,,parse_failure,2 1
+donut,lora,320_def,Definition of Data Mining,definition_theory,0.0,4.0,overscore_large,4
+donut,lora,320_kdd,KDD Process Steps,definition_theory,0.0,2.0,overscore_large,2
+donut,lora,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,2
+donut,lora,320_ex,Example / Application,application,0.0,2.0,overscore_large,2
+donut,lora,142_c3,Clear and organized writing(2),structure_clarity,1.7999999523162842,,parse_failure,
+donut,lora,103_c0,Concept of Histogram Equalization,definition_theory,3.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,103_c2,Concept of Histogram Matching,definition_theory,3.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,37_c0,Definition of Quantization,definition_theory,2.5,,parse_failure,2 2 2
+donut,lora,37_c1,Purpose of Quantization,definition_theory,2.5,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,37_c2,Max-Lloyd Algorithm Explanation,definition_theory,2.5,,parse_failure,
+donut,lora,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.5,overscore_large,2.5
+donut,lora,12_c2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,numerical,0.5,,parse_failure,2.5 0
+donut,lora,12_c3,Enables comparison between models and overfitting issues,numerical,0.5,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,247_c0,Identification of Layers (2 Marks),application,2.0,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,247_c1,Explanation of Layers with diagram (4 Marks),diagram,4.0,,parse_failure,
+donut,lora,247_c2,Technical Accuracy (2 Marks),definition_theory,2.0,,parse_failure,2 1
+donut,lora,247_c3,Examples/Protocols(1 Mark),application,1.0,,parse_failure,2 0 1
+donut,lora,247_c4,Clarity & Organization (1 Mark),structure_clarity,1.0,,parse_failure,2 0 0 0 2 1
+donut,lora,291_ex,Example / Application,application,0.0,2.5,overscore_large,2.5
+donut,lora,143_c3,Clear and organized writing(2),structure_clarity,0.5,,parse_failure,
+donut,lora,268_c0,Identification of Layers (2 Marks),application,2.0,,parse_failure,2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+donut,lora,268_c2,Technical Accuracy (2 Marks),definition_theory,1.0,,parse_failure,2 1
+donut,lora,268_c3,Examples/Protocols(1 Mark),application,1.0,,parse_failure,2 1
+donut,lora,268_c4,Clarity & Organization (1 Mark),structure_clarity,1.0,,parse_failure,2 1
+donut,lora,119_c1,Name of the climate variables,definition_theory,2.0,,parse_failure,
+donut,lora,190_c0,Understanding of schema and instance (2),application,2.0,,parse_failure,1 2
+donut,lora,190_c1,Explanation of different types of keys with examples (4),application,3.0,,parse_failure,2.5 0 0 0
+donut,lora,190_c3,Clear and organized writing (2),structure_clarity,2.0,,parse_failure,
+donut,lora,228_c0,Identification of Layers (2 Marks),application,2.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,228_c1,Explanation of Layers with diagram (4 Marks),diagram,3.0,,parse_failure,
+donut,lora,228_c2,Technical Accuracy (2 Marks),definition_theory,1.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,228_c3,Examples/Protocols(1 Mark),application,1.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,228_c4,Clarity & Organization (1 Mark),structure_clarity,0.0,,parse_failure,2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5 2.5
+donut,lora,481_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,2
+donut,lora,481_c2,Comparision,application,4.0,2.0,underscore_large,2
+donut,lora,481_ex,Example / Application,application,4.0,2.0,underscore_large,2
+donut,lora,144_c0,Understanding of normalization and related problems(3),definition_theory,1.5,,parse_failure,2.5 2
+donut,lora,144_c1,Explanation of normal forms(3),definition_theory,1.0,,parse_failure,
+donut,lora,144_c2,Use of example(2),application,1.5,,parse_failure,2.5 2.5 2.5 2.5 2.5 2
+donut,lora,144_c3,Clear and organized writing(2),structure_clarity,1.0,,parse_failure,
+donut,zero_shot,440_c0,Supervised Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,440_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,440_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,440_c3,"Example, Overall Clarity & Structure",structure_clarity,1.0,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,117_c0,Defintion of climate and weather,definition_theory,2.0,,parse_failure,", .com.com.com.com.com.com."
+donut,zero_shot,117_c1,Name of the climate variables,definition_theory,0.0,,parse_failure,", .com.com.com. . . ."
+donut,zero_shot,117_c2,Hemato-biochemical changes in rohu due to an increase of temparature,definition_theory,1.75,,parse_failure,", . .com. . . . ."
+donut,zero_shot,343_c0,Understanding of Concept,numerical,4.0,,parse_failure,
+donut,zero_shot,343_c1,Step-by-Step Procedure,numerical,4.0,,parse_failure,","
+donut,zero_shot,343_c2,Accuracy of Final Answer,numerical,4.0,,parse_failure,
+donut,zero_shot,343_c3,Clarity & Presentation,numerical,4.0,,parse_failure,","
+donut,zero_shot,99_c0,Concept of Histogram Equalization,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>
+donut,zero_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,,parse_failure,.>>>>>>>>>>>>>
+donut,zero_shot,99_c2,Concept of Histogram Matching,definition_theory,2.0,,parse_failure,", .>>>>>>>>>>>>"
+donut,zero_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,,parse_failure,", .>>>>>>>>>>>>"
+donut,zero_shot,189_c0,Understanding of schema and instance (2),application,1.0,,parse_failure,. S.>>>>>>>>>>>>
+donut,zero_shot,189_c1,Explanation of different types of keys with examples (4),application,2.0,,parse_failure,. S. S. S. S. S. S. SUN
+donut,zero_shot,189_c2,Correct identification of keys in given relation (2),application,1.0,,parse_failure,", S. S. S. S. S. S. SUN"
+donut,zero_shot,189_c3,Clear and organized writing (2),structure_clarity,1.0,,parse_failure,", S. S. S. SUNKing>>>>"
+donut,zero_shot,405_c0,Supervised Learning,definition_theory,2.5,,parse_failure,", , , , .com/c, ,"
+donut,zero_shot,405_c1,Unsupervised Learning,definition_theory,2.5,,parse_failure,", .com/c, .com/c, ,"
+donut,zero_shot,405_c2,Reinforcement Learning,definition_theory,2.5,,parse_failure,", .com/c, .com/c, ,"
+donut,zero_shot,405_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,", .com/c, .com/c, ,"
+donut,zero_shot,337_c0,Understanding of Concept,numerical,3.0,,parse_failure,
+donut,zero_shot,337_c1,Step-by-Step Procedure,numerical,4.0,,parse_failure,", 0. 0. 0. 0. 0. 0. 0."
+donut,zero_shot,337_c2,Accuracy of Final Answer,numerical,3.0,,parse_failure,
+donut,zero_shot,337_c3,Clarity & Presentation,numerical,4.0,,parse_failure,", 0. 0. 0. 0. 0. 0. 0."
+donut,zero_shot,410_c0,Supervised Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,zero_shot,410_c1,Unsupervised Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,zero_shot,410_c2,Reinforcement Learning,definition_theory,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,zero_shot,410_c3,"Example, Overall Clarity & Structure",structure_clarity,2.0,,parse_failure,.>>>>>>>>>>>>>>
+donut,zero_shot,463_c0,Supervised Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,463_c1,Unsupervised Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,463_c2,Reinforcement Learning,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,463_c3,"Example, Overall Clarity & Structure",structure_clarity,1.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,470_c0,Definition of Method Overloading,application,1.0,,parse_failure,", |||||||||||||"
+donut,zero_shot,470_c1,Definition of Method Overriding,application,0.0,,parse_failure,|| | |||||||||
+donut,zero_shot,470_c2,Comparision,application,3.0,,parse_failure,| | ||| ||||||
+donut,zero_shot,470_ex,Example / Application,application,4.0,,parse_failure,| | | | | | |
+donut,zero_shot,320_def,Definition of Data Mining,definition_theory,0.0,,parse_failure,s: </> (Base: </> Date:
+donut,zero_shot,320_kdd,KDD Process Steps,definition_theory,0.0,,parse_failure,.> (Expressed.: .: .:
+donut,zero_shot,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,,parse_failure,: </> : </> : </</</</</
+donut,zero_shot,320_ex,Example / Application,application,0.0,,parse_failure,: </> (Exe: </> (Exe:
+donut,zero_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,,parse_failure,||||||||||||||
+donut,zero_shot,142_c1,Explanation of normal forms(3),definition_theory,1.5,,parse_failure,||||||||||||||
+donut,zero_shot,142_c2,Use of example(2),application,2.0,,parse_failure,||||||||||||||
+donut,zero_shot,142_c3,Clear and organized writing(2),structure_clarity,1.7999999523162842,,parse_failure,||||||||||||||
+donut,zero_shot,103_c0,Concept of Histogram Equalization,definition_theory,3.0,,parse_failure,. . . . . . .
+donut,zero_shot,103_c1,Necessity of Histogram Equalization,definition_theory,2.0,,parse_failure,. . . . . . .
+donut,zero_shot,103_c2,Concept of Histogram Matching,definition_theory,3.0,,parse_failure,. . . . . . .
+donut,zero_shot,103_c3,Necessity of Histogram Matching,definition_theory,2.0,,parse_failure,. . . . . . .
+donut,zero_shot,37_c0,Definition of Quantization,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,37_c1,Purpose of Quantization,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,37_c2,Max-Lloyd Algorithm Explanation,definition_theory,2.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,37_c3,Boundary & Centroid Conditions,definition_theory,1.5,,parse_failure,>>>>>>>>>>>>>>>
+donut,zero_shot,12_c0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,numerical,2.0,,parse_failure,", . . ' ' ' ' ''''''"
+donut,zero_shot,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,,parse_failure,. . . . . . .
+donut,zero_shot,12_c2,Critical Insight (Limitations / Adjusted R²) and higher R² strengthens confidence,numerical,0.5,,parse_failure,. . . . . . .
+donut,zero_shot,12_c3,Enables comparison between models and overfitting issues,numerical,0.5,,parse_failure,. . . . . . .
+donut,zero_shot,247_c0,Identification of Layers (2 Marks),application,2.0,,parse_failure,","" .com.com.com.com.com.com"
+ensemble,few_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,1.0,underscore_large,
+ensemble,few_shot,150_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.75,underscore_large,
+ensemble,few_shot,169_c1,Explanation of normal forms(3),definition_theory,3.0,0.25,underscore_large,
+ensemble,few_shot,173_c1,Explanation of normal forms(3),definition_theory,3.0,0.75,underscore_large,
+ensemble,few_shot,177_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.75,underscore_large,
+ensemble,few_shot,316_c2,Importance of Data Mining Marks=(4),definition_theory,4.0,2.0,underscore_large,
+ensemble,few_shot,316_ex,Example / Application,application,0.0,2.5,overscore_large,
+ensemble,few_shot,343_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,
+ensemble,few_shot,347_c0,Understanding of Concept,numerical,4.0,2.0,underscore_large,
+ensemble,few_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,
+ensemble,few_shot,469_c0,Definition of Method Overloading,application,0.0,2.5,overscore_large,
+ensemble,few_shot,469_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,
+ensemble,few_shot,469_c2,Comparision,application,4.0,2.0,underscore_large,
+ensemble,few_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,few_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,
+ensemble,few_shot,470_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,few_shot,475_c0,Definition of Method Overloading,application,0.0,2.5,overscore_large,
+ensemble,few_shot,475_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,few_shot,475_ex,Example / Application,application,0.0,2.5,overscore_large,
+ensemble,few_shot,481_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,few_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.25,overscore_large,
+ensemble,few_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.25,overscore_large,
+ensemble,full,117_c1,Name of the climate variables,definition_theory,0.0,2.0,overscore_large,
+ensemble,full,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,
+ensemble,full,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.5,overscore_large,
+ensemble,full,301_kdd,KDD Process Steps,definition_theory,1.0,3.25,overscore_large,
+ensemble,full,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,
+ensemble,full,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,full,469_c2,Comparision,application,4.0,1.25,underscore_large,
+ensemble,full,469_ex,Example / Application,application,0.0,3.5,overscore_large,
+ensemble,full,470_c0,Definition of Method Overloading,application,1.0,4.0,overscore_large,
+ensemble,full,470_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,
+ensemble,full,470_ex,Example / Application,application,4.0,0.75,underscore_large,
+ensemble,full,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,
+ensemble,full,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,full,475_c2,Comparision,application,4.0,1.25,underscore_large,
+ensemble,full,481_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,
+ensemble,lora,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,
+ensemble,lora,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.5,overscore_large,
+ensemble,lora,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,
+ensemble,lora,469_c0,Definition of Method Overloading,application,0.0,2.0,overscore_large,
+ensemble,lora,469_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,lora,469_c2,Comparision,application,4.0,0.0,underscore_large,
+ensemble,lora,469_ex,Example / Application,application,0.0,2.75,overscore_large,
+ensemble,lora,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,
+ensemble,lora,470_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,lora,470_ex,Example / Application,application,4.0,0.0,underscore_large,
+ensemble,lora,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,
+ensemble,lora,475_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,lora,475_c2,Comparision,application,4.0,0.0,underscore_large,
+ensemble,lora,481_c1,Definition of Method Overriding,application,0.0,2.5,overscore_large,
+ensemble,lora,481_c2,Comparision,application,4.0,1.25,underscore_large,
+ensemble,lora,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,
+ensemble,zero_shot,281_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,zero_shot,287_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,zero_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,
+ensemble,zero_shot,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,
+ensemble,zero_shot,301_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,zero_shot,316_ex,Example / Application,application,0.0,2.5,overscore_large,
+ensemble,zero_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,
+ensemble,zero_shot,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,zero_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,
+ensemble,zero_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,475_ex,Example / Application,application,0.0,2.0,overscore_large,
+ensemble,zero_shot,479_c2,Comparision,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,
+ensemble,zero_shot,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,
+ensemble,zero_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,
+ensemble,zero_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,
+ensemble,zero_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,
+internvl3,few_shot,343_c0,Understanding of Concept,numerical,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identified the most efficient sorting algorithm and provided the correct time and space complexities. However the explanation of the negative cycle in the graph was clear, but the coin change problem had minor errors in the DP table.""}"
+internvl3,few_shot,343_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student's answers show some clear steps and correct application of algorithms, but some some minor errors in explanation and formatting.""}"
+internvl3,few_shot,343_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student's answers are somewhat understandable but lack neatness and clarity, with some diagrams and tables being difficult to read. Justifications are present but not well-organized.""}"
+internvl3,few_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.5,overscore_large,"{""score"": 3.5, ""justification"": ""The student's answer covers several key points about histogram equalization, including contrast enhancement, detail improvement, and preprocessing benefits. However, it lacks specific examples or applications, which slightly reduces the score.""}"
+internvl3,few_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.5,overscore_large,"{""score"": 3.5, ""justification"": ""The student's answer covers several key points about histogram matching, including controlled appearance, consistency, color/brightness correction, and handling different sources. However, it lacks specific mention of ML applications and image normalization.""}"
+internvl3,few_shot,337_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,"{""score"": 2, ""justification"": ""The student's answer is partially correct but lacks clarity and structure in some steps.""}"
+internvl3,few_shot,337_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"{""score"": 2, ""justification"": ""The answer is 1 is clear but lacks neat diagrams/tables. The answer to 2 is well-structured but could benefit from more clarity in steps. The answer to 3 is understandable but lacks neatness.""}"
+internvl3,few_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student's answer is partially correct but misses some key aspects of method overloading.""}"
+internvl3,few_shot,470_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identifies the same method name and refined parameters in the subclass, but does not mention run-time polymorphism explicitly.""}"
+internvl3,few_shot,470_ex,Example / Application,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student provides correct definitions and examples for both method overloading and overriding, though the examples are simple and lack detailed explanations.""}"
+internvl3,few_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""The student correctly identifies normalization as a technique to eliminate redundancy and anomalies but does not mention insertion, deletion, or update anomalies explicitly.""}"
+internvl3,few_shot,142_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The example provided is not clear and does not correctly illustrate the normalization process or the identified anomalies.""}"
+internvl3,few_shot,247_c1,Explanation of Layers with diagram (4 Marks),diagram,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student provided a detailed explanation of each layer but missed the diagram component.""}"
+internvl3,few_shot,247_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks technical accuracy, with incorrect layer names and functions.""}"
+internvl3,few_shot,173_c0,Understanding of normalization and related problems(3),definition_theory,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""The student correctly identifies normalization and its purpose, explains redundancy, and addresses update anomalies with examples.""}"
+internvl3,few_shot,173_c1,Explanation of normal forms(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not correctly explain the normal forms or their conditions for removing anomalies.""}"
+internvl3,few_shot,173_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No example provided or incorrect application of normalization steps.""}"
+internvl3,few_shot,481_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identifies that method overriding requires inheritance and has the same method name and parameters. However, the explanation lacks mention of run-time polymorphism.""}"
+internvl3,few_shot,481_ex,Example / Application,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student provides examples for both method overloading and overriding, but the examples are not complete or correct. The method overloading example is incorrect as it does not show different parameter lists. The overriding example is partially correct but lacks cl"
+internvl3,few_shot,18_c0,Importance of R² and Variability (eg. 0.85 or 85%) explained by the model,numerical,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not explain the meaning of R² or its interpretation in regression analysis. It² values and Adjusted R² are not discussed.""}"
+internvl3,few_shot,479_ex,Example / Application,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student provides examples for both method overloading and overriding, but the examples are not complete or correct. The overloading example is mostly correct but lacks proper method signatures, and the overriding example is incomplete and incorrect in syntax.""}"
+internvl3,few_shot,263_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer contains significant errors in terminology and function descriptions, not matching the model answer.""}"
+internvl3,few_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""The student's answers are fully accurate and justified.""}"
+internvl3,few_shot,169_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks clear explanation of normalization and related problems, and does not identify all types of anomalies.""}"
+internvl3,few_shot,169_c1,Explanation of normal forms(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not explain the normal forms correctly.""}"
+internvl3,few_shot,169_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No example provided or connection to concept.""}"
+internvl3,few_shot,469_c0,Definition of Method Overloading,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identifies method overloading as having the same method name with different parameters in the same class and mentions compile-time polymorphism.""}"
+internvl3,few_shot,469_c2,Comparision,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identifies key differences such as class relationship, parameters, and binding type but misses the inheritance requirement distinction.""}"
+internvl3,few_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student provides examples for both method overloading and overriding, but the examples are not complete or correct. The method overloading example is incorrect, and the overriding example lacks proper class definitions and method signatures.""}"
+internvl3,few_shot,106_c0,Defintion of climate and weather,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not provide a clear definition of climate and weather, nor does it demonstrate correct spelling and sentence structure.""}"
+internvl3,few_shot,106_c1,Name of the climate variables,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student did not mention any climate variables.""}"
+internvl3,few_shot,475_c0,Definition of Method Overloading,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student correctly defines method overloading as having multiple methods in the same class with the same name but different parameters. However, the mention of compile-time polymorphism is incomplete and not fully clear.""}"
+internvl3,few_shot,475_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identifies method overriding as providing a specific implementation in a subclass for a method already defined in its superclass and mentions runtime polymorphism. However, the explanation is brief and lacks some details compared to the model an"
+internvl3,few_shot,475_c2,Comparision,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identified differences in definition, inheritance, and polymorphism type but missed the key difference about class relationship and binding time.""}"
+internvl3,few_shot,475_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""The student provided definitions and a basic comparison but lacked a complete and correct programming example for both method overloading and overriding.""}"
+internvl3,few_shot,208_c0,Understanding of schema and instance (2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks clarity and accuracy in defining schema and instance, and the explanation of keys is incomplete and incorrect.""}"
+internvl3,few_shot,208_c1,Explanation of different types of keys with examples (4),application,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""The student provided definitions and examples for the keys but missed explaining the super key correctly and did not fully justify the identification of keys in the given relation.""}"
+internvl3,few_shot,208_c2,Correct identification of keys in given relation (2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks correct identification of keys and does not provide proper justification.""}"
+internvl3,few_shot,351_c0,Understanding of Concept,numerical,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not address the questions asked and lacks any relevant content or correct methodology.""}"
+internvl3,few_shot,351_c2,Accuracy of Final Answer,numerical,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,few_shot,351_c3,Clarity & Presentation,numerical,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""The student's answer is somewhat understandable but lacks neatness and clear diagrams/tables.""}"
+internvl3,few_shot,281_kdd,KDD Process Steps,definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identified six steps but missed 'Data Selection' and 'Data Preprocessing/Cleaning' as separate steps.""}"
+internvl3,few_shot,147_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not correctly explain the normal forms (1NF, 2NF, 3NF) or how they remove anomalies.""}"
+internvl3,few_shot,147_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No example provided or connection to concept.""}"
+internvl3,few_shot,287_def,Definition of Data Mining,definition_theory,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""The student's answer is incomplete and lacks clarity in defining data data mining.""}"
+internvl3,few_shot,287_kdd,KDD Process Steps,definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identified Data Selection, Data Preprocessing/Cleaning, Data Mining, and Knowledge Discovering as steps, but missed Data Transformation and Evaluation.""}"
+internvl3,few_shot,161_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""The student correctly identifies normalization and some few types of anomalies but misses some depth and one anomaly explanation.""}"
+internvl3,few_shot,161_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0.0 as the rubric.""}"
+internvl3,few_shot,347_c0,Understanding of Concept,numerical,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 due to lack of relevant content addressing the question.""}"
+internvl3,few_shot,347_c1,Step-by-Step Procedure,numerical,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No clear step-by-step procedure shown.""}"
+internvl3,few_shot,347_c2,Accuracy of Final Answer,numerical,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not address the questions accurately.""}"
+internvl3,few_shot,150_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks clear explanation of normalization purpose and fails to correctly identify redundancy and all anomalies.""}"
+internvl3,few_shot,150_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not explain the normal forms (1NF, 2NF) correctly or provide conditions for removing anomalies.""}"
+internvl3,few_shot,150_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No example provided or connection to concept.""}"
+internvl3,few_shot,298_kdd,KDD Process Steps,definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The student correctly identified six steps of the KDD process but missed 'Pattern Evaluation' and 'Knowledge Presentation'.""}"
+internvl3,few_shot,146_c0,Understanding of normalization and related problems(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks clarity and does not correctly identify or explain the normalization process or related problems.""}"
+internvl3,few_shot,146_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer does not correctly explain the normal forms or their conditions for removing anomalies.""}"
+internvl3,few_shot,146_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""No example provided or connection to concept.""}"
+internvl3,few_shot,177_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""The student's answer lacks clarity and misses key details about normalization and related problems.""}"
+internvl3,few_shot,316_c2,Importance of Data Mining Marks=(4),definition_theory,4.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""The student provided a basic explanation of the importance of data mining, mentioning its role in decision making and providing insights. However, the explanation is not as detailed or comprehensive as the model answer.""}"
+internvl3,full,117_c1,Name of the climate variables,definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,full,470_c0,Definition of Method Overloading,application,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,full,470_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,full,470_c2,Comparision,application,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,470_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,481_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,full,481_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,301_kdd,KDD Process Steps,definition_theory,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,full,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,full,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,469_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,469_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,475_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,full,475_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,full,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,lora,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,lora,470_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,lora,470_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,481_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,lora,481_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,lora,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,lora,469_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,lora,469_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,469_ex,Example / Application,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,lora,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,lora,475_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+internvl3,lora,475_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+internvl3,lora,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+internvl3,lora,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+internvl3,zero_shot,343_c1,Step-by-Step Procedure,numerical,4.0,2.0,underscore_large,"```json
+{""score"": 2, ""justification"": ""The student attempted to follow a step-step procedure but missed some key details and steps, leading to an incomplete and somewhat incorrect explanation.""}
+```"
+internvl3,zero_shot,343_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"```json
+{""score"": 2, ""justification"": ""Handwritten answer is understandable but lacks neat diagrams/tables and strong justification details.""}
+```"
+internvl3,zero_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student explains multiple reasons for histogram equalization, including contrast enhancement, detail improvement, and pre-processing, but misses mentioning improved image interpretation as a key necessity.""}"
+internvl3,zero_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly mentions several uses of histogram matching, including consistency, handling lighting variations, and improved comparison, but does not explicitly mention ML applications.""}"
+internvl3,zero_shot,337_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"```json
+{""score"": 2, ""justification"": ""Handwritten answer is somewhat clear but lacks neat diagrams/tables and detailed justification, making it average in clarity and presentation.""}
+```"
+internvl3,zero_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overloading with same method name and different parameters lists, but misses compile-time polymorphism mention.""}"
+internvl3,zero_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overriding with same method name and refined parameters, mentions run-time polymorphism, but minor missing point on inheritance requirement.""}"
+internvl3,zero_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,1.0,underscore_large,"```json
+{""score"": 1.0, ""justification"": ""The student clearly explains normalization as a technique to eliminate data redundancy and anomalies. They correctly identify insertion, deletion, and update anomalies and provide a relevant example demonstrating the normalization process. The explanation is "
+internvl3,zero_shot,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"```json
+{""score"": 2, ""justification"": ""Correctly explains R² meaning and its importance, but lacks specific interpretation of R² values (e.g., R² ≈ 1 or R² < 0) and Adjusted R² discussion.""}
+```"
+internvl3,zero_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overriding as requiring inheritance and mentions run-time polymorphism, but minor missing point on method signature.""}"
+internvl3,zero_shot,18_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"```json
+{""score"": 2, ""justification"": ""Correct formula for R² and interpretation of R² ≈ 1 and R² ≈ 0, but no mention of R² < 0 or being worse than the mean.""}
+```"
+internvl3,zero_shot,479_c2,Comparision,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Identifies 3 differences: class relationship, parameter, binding time.""}"
+internvl3,zero_shot,400_c1,Step-by-Step Procedure,numerical,3.0,1.0,underscore_large,"```json
+{""score"": 1, ""justification"": ""Missing step step step step step step step step step step step step step step step step step step""}
+```"
+internvl3,zero_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"```json
+{""score"": 4, ""justification"": ""The student's answer correctly identifies Bucket Sort as the most efficient algorithm for the given dataset, provides a clear justification, and accurately states the time and space complexities of all three sorting algorithms. The answers to the other question"
+internvl3,zero_shot,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student mentions the importance of data mining but lacks clear reasoning and specific examples.""}"
+internvl3,zero_shot,301_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provided an example of data mining in retail and fraud detection, but it was not well explained.""}"
+internvl3,zero_shot,309_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The answer provides a basic explanation of the importance of data mining but lacks specific reasoning and examples.""}"
+internvl3,zero_shot,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overloading with same name and different parameters lists but misses compile-time polymorphism aspect.""}"
+internvl3,zero_shot,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overriding as providing a specific implementation for a method already defined in its parent class, mentions runtime polymorphism, but minor missing point on inheritance requirement.""}"
+internvl3,zero_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provides a basic explanation and mentions an example for method overloading and overriding, but the example for overriding is incorrect and incomplete.""}"
+internvl3,zero_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overloading with same method name and different parameters lists but misses mentioning compile-time polymorphism.""}"
+internvl3,zero_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly defines method overriding as providing a specific implementation in a subclass for a method already defined in its superclass and mentions run-time polymorphism correctly, but lacks minor details.""}"
+internvl3,zero_shot,475_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The answer provides definitions and differences but lacks a complete and correct programming example for both method overloading and overriding.""}"
+internvl3,zero_shot,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correctly identifies histogram equalization's purpose and effect on contrast, but lacks specific mention of redistributing intensity values for contrast enhancement.""}"
+internvl3,zero_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student explains the necessity of histogram equalization by mentioning contrast enhancement, better visibility of details, and improved image interpretation. However, they miss mentioning it as a preprocessing step for further image processing tasks.""}"
+internvl3,zero_shot,75_c2,Concept of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly mentions histogram matching as a technique for transforming an image's histogram to match a reference, but lacks specific details on consistency and improved comparison.""}"
+internvl3,zero_shot,75_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly mentions the necessity of histogram matching for consistency across images and mentions lighting variations, but does not mention machine learning applications or image normalization.""}"
+internvl3,zero_shot,351_c1,Step-by-Step Procedure,numerical,3.0,1.0,underscore_large,"```json
+{""score"": 1, ""justification"": ""Missing step-by-step procedure and incorrect algorithm application for negative cycle detection.""}
+```"
+internvl3,zero_shot,281_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provided a vague example about the importance of data mining without clear explanation or real-world context.""}"
+internvl3,zero_shot,287_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The example provided is vague and lacks specific details about illustrate the application of data mining in real-world scenarios.""}"
+internvl3,zero_shot,347_c0,Understanding of Concept,numerical,4.0,2.0,underscore_large,"```json
+{""score"": 2, ""justification"": ""The student's answer shows partial understanding of the sorting algorithms and their complexities but lacks clarity and completeness in just the explanation and justification. The answer is not fully correct and demonstrates only a partial understanding of the "
+internvl3,zero_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"```json
+{""score"": 3, ""justification"": ""Reasonable justification with clear examples but limited explanation of data mining's importance in modern organizations.""}
+```"
+internvl3,zero_shot,177_c0,Understanding of normalization and related problems(3),definition_theory,3.0,1.0,underscore_large,"```json
+{""score"": 1, ""justification"": ""The student correctly identifies normalization's purpose and lists the types of anomalies (insert, update, delete). However, the explanations are brief and lack depth in reasoning for each anomaly, which slightly reduces the score from excellent.""}
+```"
+internvl3,zero_shot,316_c2,Importance of Data Mining Marks=(4),definition_theory,4.0,2.0,underscore_large,"{""score"": 2, ""justification"": ""The student provided a general statement about the importance of data mining but lacked specific reasoning and examples.""}"
+internvl3,zero_shot,316_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provided examples related to marketing and fraud detection, but they were not well explained.""}"
+pixtral,few_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.5,overscore_large,"{""score"": 3.5, ""justification"": ""Score 3.5 based on the rubric.""}"
+pixtral,few_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.5,overscore_large,"{""score"": 3.5, ""justification"": ""Score 3.5 based on the rubric.""}"
+pixtral,few_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Defines correctly but misses one important aspect.""}"
+pixtral,few_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,few_shot,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,320_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,142_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""Score 0.5 based on the rubric.""}"
+pixtral,few_shot,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,247_c1,Explanation of Layers with diagram (4 Marks),diagram,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,291_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,173_c1,Explanation of normal forms(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""Score 0.5 based on the rubric.""}"
+pixtral,few_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,few_shot,18_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,479_c2,Comparision,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Identifies 2 differences correctly.""}"
+pixtral,few_shot,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,301_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,169_c1,Explanation of normal forms(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""Score 0.5 based on the rubric.""}"
+pixtral,few_shot,309_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,309_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,469_c0,Definition of Method Overloading,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,469_c1,Definition of Method Overriding,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,469_c2,Comparision,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Identifies 2 differences correctly.""}"
+pixtral,few_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Provides partial example for both overloading and overriding.""}"
+pixtral,few_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Defines method overloading correctly but misses one important aspect (e.g., compile-time polymorphism or parameter variation).""}"
+pixtral,few_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,few_shot,475_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Provides mostly correct examples for both overloading and overriding with some minor errors.""}"
+pixtral,few_shot,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,75_c2,Concept of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,75_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,281_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,287_kdd,KDD Process Steps,definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,287_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,150_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""Score 0.5 based on the rubric.""}"
+pixtral,few_shot,298_kdd,KDD Process Steps,definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,few_shot,177_c0,Understanding of normalization and related problems(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""Score 0.5 based on the rubric.""}"
+pixtral,few_shot,316_c2,Importance of Data Mining Marks=(4),definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,few_shot,316_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,full,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,full,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,full,470_c0,Definition of Method Overloading,application,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,470_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,470_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,320_kdd,KDD Process Steps,definition_theory,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,142_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,247_c1,Explanation of Layers with diagram (4 Marks),diagram,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,full,247_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,173_c1,Explanation of normal forms(3),definition_theory,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""Score 1 based on the rubric.""}"
+pixtral,full,481_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,481_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,263_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,301_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,301_kdd,KDD Process Steps,definition_theory,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,169_c1,Explanation of normal forms(3),definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,169_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,469_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,475_c0,Definition of Method Overloading,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,full,475_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,147_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,161_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,150_c1,Explanation of normal forms(3),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,150_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,298_def,Definition of Data Mining,definition_theory,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,298_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,146_c2,Use of example(2),application,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,full,177_c0,Understanding of normalization and related problems(3),definition_theory,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""Score 1 based on the rubric.""}"
+pixtral,full,316_c2,Importance of Data Mining Marks=(4),definition_theory,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+pixtral,lora,470_c2,Comparision,application,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,470_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,320_kdd,KDD Process Steps,definition_theory,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,lora,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,481_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,216_c1,Explanation of Layers with diagram (4 Marks),diagram,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""Score 1 based on the rubric.""}"
+pixtral,lora,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,301_kdd,KDD Process Steps,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,169_c1,Explanation of normal forms(3),definition_theory,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""Score 1 based on the rubric.""}"
+pixtral,lora,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,469_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,469_ex,Example / Application,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+pixtral,lora,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,475_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+pixtral,lora,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,lora,75_c2,Concept of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+pixtral,zero_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Explains most reasons but misses one important point.""}"
+pixtral,zero_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"```json{""score"": 3, ""justification"": ""Some correct points but incomplete.""}
+```"
+pixtral,zero_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"```json
+{""score"": 3, ""justification"": ""Defines method overloading correctly but misses mention of compile-time polymorphism.""}
+```"
+pixtral,zero_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,zero_shot,320_def,Definition of Data Mining,definition_theory,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct definition but slightly incomplete.""}"
+pixtral,zero_shot,320_kdd,KDD Process Steps,definition_theory,0.0,3.0,overscore_large,"```{""score"": 3, ""justification"": ""Several steps identified but some missing""}
+```"
+pixtral,zero_shot,320_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Reasonable justification but limited explanation.""}"
+pixtral,zero_shot,320_ex,Example / Application,application,0.0,4.0,overscore_large,"{""score"": 4, ""justification"": ""Relevant real-world example provided (e.g., marketing, fraud detection, recommendation systems)""}"
+pixtral,zero_shot,12_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Formula is correct but interpretation is partially correct.""}"
+pixtral,zero_shot,291_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Vague or unclear example provided.""}"
+pixtral,zero_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,zero_shot,18_c1,"Mathematical Expression & Interpretation and Evaluate model performance by               R² ≈ 1 → very good fit 
+R² ≈ 0 → poor fit 
+R²<0 → model is worse than just using the mean",numerical,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Formula is correct but interpretation is partially correct.""}"
+pixtral,zero_shot,479_c2,Comparision,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Identifies 3 differences correctly.""}"
+pixtral,zero_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4, ""justification"": ""The student's answer is fully accurate and justified.""}"
+pixtral,zero_shot,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""General statement with weak reasoning.""}"
+pixtral,zero_shot,301_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Example provided but not well explained.""}"
+pixtral,zero_shot,309_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""General statement with weak reasoning.""}"
+pixtral,zero_shot,309_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Vague or unclear example provided.""}"
+pixtral,zero_shot,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Defines method overloading correctly but misses the mention of compile-time polymorphism.""}"
+pixtral,zero_shot,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,zero_shot,469_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Example mostly correct with minor errors.""}"
+pixtral,zero_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Defines method overloading correctly but misses the compile-time polymorphism aspect.""}"
+pixtral,zero_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct definition with minor missing points.""}"
+pixtral,zero_shot,475_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Provides partial example for overloading but no example for overriding.""}"
+pixtral,zero_shot,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct but missing one key aspect of redistribution of intensity values.""}"
+pixtral,zero_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Explains most reasons but misses one important point.""}"
+pixtral,zero_shot,75_c2,Concept of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Correct but lacks one key detail about transformation using reference histogram.""}"
+pixtral,zero_shot,75_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Some correct points but incomplete.""}"
+pixtral,zero_shot,351_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4, ""justification"": ""The final answer is fully accurate and justified.""}"
+pixtral,zero_shot,281_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Vague or unclear example provided.""}"
+pixtral,zero_shot,287_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""Vague or unclear example provided.""}"
+pixtral,zero_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Reasonable justification but limited explanation.""}"
+pixtral,zero_shot,316_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Example provided but not well explained.""}"
+qwen25vl,few_shot,343_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The answers are are clear but and neatly presented, though some there is some some some table or diagram.""}"
+qwen25vl,few_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""The student correctly defines method overloading as a method name with different parameter lists in the class and mentions compile-time polymorphism correctly.""}"
+qwen25vl,few_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,479_c2,Comparision,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,205_c2,Correct identification of keys in given relation (2),application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justifi"": ""Score 2 based on the rubric.""}"
+qwen25vl,few_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""The answer is fully accurate and justified.""}"
+qwen25vl,few_shot,301_kdd,KDD Process Steps,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,169_c1,Explanation of normal forms(3),definition_theory,3.0,0.5,underscore_large,"{""score"": 0.5, ""justification"": ""The answer mentions the normal forms but but does not provide a complete explanation of 1NF, 2NF, and 3NF, including the conditions and how how they remove anomalies.""}"
+qwen25vl,few_shot,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""just"": ""The response lacks a a clear
+
+ !***"
+qwen25vl,few_shot,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""The student correctly defines method overloading as a method with the same parameter lists in the same class and mentions compile-time polymorphism correctly.""}"
+qwen25vl,few_shot,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,469_c2,Comparision,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justife"": ""The comparison is somewhat clear but there are some minor errors and omissions.""}"
+qwen25vl,few_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2.0, ""justife"": ""The response includes some basic examples of method overloading and overriding, but the explanations are not complete clear.""}"
+qwen25vl,few_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""The student correctly defines method overloading as a method with the same parameter lists in the same class and mentions compile-time polymorphism correctly.""}"
+qwen25vl,few_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,475_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justife"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,392_c3,Clarity & Presentation,numerical,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""The answer is partially clear and not neatly presented, lacking clarity and organization.""}"
+qwen25vl,few_shot,443_c2,Reinforcement Learning,definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+qwen25vl,few_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,few_shot,316_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justifi"": ""Score 3 based on the rubric.""}"
+qwen25vl,full,117_c1,Name of the climate variables,definition_theory,0.0,2.0,overscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+qwen25vl,full,470_c0,Definition of Method Overloading,application,1.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+qwen25vl,full,470_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+qwen25vl,full,470_ex,Example / Application,application,4.0,2.0,underscore_large,"{""score"": 2.0, ""justification"": ""Score 2 based on the rubric.""}"
+qwen25vl,full,481_c1,Definition of Method Overriding,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+qwen25vl,full,479_c2,Comparision,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+qwen25vl,full,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,full,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,full,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,full,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,full,469_ex,Example / Application,application,0.0,4.0,overscore_large,"{""score"": 4.0, ""justification"": ""Score 4 based on the rubric.""}"
+qwen25vl,full,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,full,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,full,287_c2,Importance of Data Mining Marks=(4),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,full,443_c2,Reinforcement Learning,definition_theory,0.0,2.5,overscore_large,"{""score"": 2.5, ""justification"": ""Score 2.5 based on the rubric.""}"
+qwen25vl,full,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,470_c2,Comparision,application,3.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,470_ex,Example / Application,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,216_c1,Explanation of Layers with diagram (4 Marks),diagram,3.0,1.0,underscore_large,"{""score"": 1.0, ""justification"": ""Score 1 based on the rubric.""}"
+qwen25vl,lora,216_c2,Technical Accuracy (2 Marks),definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,301_kdd,KDD Process Steps,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,309_def,Definition of Data Mining,definition_theory,2.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,469_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,475_c2,Comparision,application,4.0,0.0,underscore_large,"{""score"": 0.0, ""justification"": ""Score 0 based on the rubric.""}"
+qwen25vl,lora,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,lora,443_c2,Reinforcement Learning,definition_theory,0.0,2.5,overscore_large,"{""score"": 2.5, ""justification"": ""Score 2.5 based on the rubric.""}"
+qwen25vl,lora,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3.0, ""justification"": ""Score 3 based on the rubric.""}"
+qwen25vl,zero_shot,99_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The answer provides three main reasons for the necessity of histogram equalization, which aligns with the rubric level of ""}"
+qwen25vl,zero_shot,99_c3,Necessity of Histogram Matching,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The answer provides some}"
+qwen25vl,zero_shot,470_c0,Definition of Method Overloading,application,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overloading as same method name with different parameter lists in the same class and mentions compile-time polymorphism correctly.}"
+qwen25vl,zero_shot,470_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overriding as redefining inherited method with same signature and mentions runtime polymorphism.""}"
+qwen25vl,zero_shot,291_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justify"": ""The answer mentions a relevant real-world application of data mining in marketing, which is a good start, but the explanation is vague and lacks detail.""}"
+qwen25vl,zero_shot,481_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overriding as redefining inherited method with same signature and mentions run-time polymorphism.""}"
+qwen25vl,zero_shot,479_c2,Comparision,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly identified three main differences between method overloading and method overriding: the class relationship, the parameters, and the requirement for inheritance. However"
+qwen25vl,zero_shot,222_c1,Explanation of Layers with diagram (4 Marks),diagram,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""Most layers are explained correctly but there no diagram provided.""}"
+qwen25vl,zero_shot,358_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4, ""justification"": ""The answer is fully accurate and justified.}}"
+qwen25vl,zero_shot,301_c2,Importance of Data Mining Marks=(4),definition_theory,0.0,2.0,overscore_large,"{""score"": 2, ""justify"": ""The response mentions the importance of data mining but lacks detailed reasoning.""}"
+qwen25vl,zero_shot,301_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justify"": ""The student provided a vague example without the data mining application.""}"
+qwen25vl,zero_shot,469_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justificat}: Defines correctly but misses one aspect (e.g., compile-time polymorphism or parameter variation)"
+qwen25vl,zero_shot,469_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overriding as redefining inherited method with the same signature and mentions runtime polymorphism.""}"
+qwen25vl,zero_shot,469_c2,Comparision,application,4.0,2.0,underscore_large,"{""score"": 2, ""justification"": ""The student correctly identified two key differences: method overloading happens within the same class and method overriding happens between parent and child classes. However, they did not mention the parameters or inheritance requirements, which are were, are importan"
+qwen25vl,zero_shot,469_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provided examples code for both method overloading and method overriding, but the explanation was the examples is not fully clear or complete}"
+qwen25vl,zero_shot,475_c0,Definition of Method Overloading,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overloading as having the same method name with different parameter lists in the same class and mentions compile-time polymorphism.""}"
+qwen25vl,zero_shot,475_c1,Definition of Method Overriding,application,0.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The student correctly defines method overriding as redefining inherited method with same signature but misses mentioning runtime polymorphism.""}"
+qwen25vl,zero_shot,475_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justification"": ""The student provided a basic understanding of method overloading and overriding but did not include complete}
+
+
+>{""score"": 2, ""just"
+qwen25vl,zero_shot,75_c0,Concept of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The answer correctly identifies histogram equalization as a technique for redistributing intensity values to enhance contrast, but it lacks a clear explanation of the purpose behind this redistribution.""}"
+qwen25vl,zero_shot,75_c1,Necessity of Histogram Equalization,definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justification"": ""The response provides a clear explanation of the necessity of histogram equalization, mentioning contrast enhancement, better visibility of details, improved image interpretation, and preprocessing benefits, which aligns well with the criteria.""}"
+qwen25vl,zero_shot,351_c2,Accuracy of Final Answer,numerical,2.0,4.0,overscore_large,"{""score"": 4, ""justification"": ""The answer is fully accurate and justified.""}"
+qwen25vl,zero_shot,281_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justify"": ""The answer mentions a real-world application of data mining in a retail context, which is relevant but lacks detail.""}"
+qwen25vl,zero_shot,287_ex,Example / Application,application,0.0,2.0,overscore_large,"{""score"": 2, ""justify"": ""The student mentions a vague example without the answer lacks detail.""}"
+qwen25vl,zero_shot,298_c2,Importance of Data Mining Marks=(4),definition_theory,1.0,3.0,overscore_large,"{""score"": 3, ""justify"": ""Reasonable justification with some
+ addCriterion
+The student's answer provides a general statement about the importance of data mining in modern organizations, mentioning its enables data-driven decision-making and provides insights that would otherwise remain hidden in larg"
+qwen25vl,zero_shot,316_ex,Example / Application,application,0.0,3.0,overscore_large,"{""score"": 3, ""justify"": ""The student provides a relevant real-world example of how data mining can be applied in marketing, which is a good application.""}"

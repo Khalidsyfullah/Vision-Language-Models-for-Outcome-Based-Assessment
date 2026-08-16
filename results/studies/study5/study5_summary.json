@@ -1,0 +1,5 @@
+{
+  "xai_model": "qwen25vl",
+  "xai_regime": "lora",
+  "stage": "survey"
+}

@@ -1,0 +1,14 @@
+{
+  "n_runs": 20,
+  "features_evaluated": [
+    "handwriting_density_grp",
+    "answer_length_grp",
+    "subject",
+    "criterion_scale_grp",
+    "criterion_type"
+  ],
+  "features_skipped_degenerate": [
+    "language"
+  ],
+  "min_subgroup_n": 10
+}

@@ -1,0 +1,5 @@
+{
+  "regime": "lora",
+  "n_models": 4,
+  "score_resolution": 0.05
+}
