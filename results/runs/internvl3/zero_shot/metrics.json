@@ -1,0 +1,31 @@
+[
+  {
+    "model":"internvl3",
+    "regime":"zero_shot",
+    "n_total":291,
+    "n_valid":291,
+    "parse_rate":1.0,
+    "qwk":0.5074168076,
+    "linear_kappa":0.3510756392,
+    "cohen_kappa":0.1118098834,
+    "mae":0.7424398627,
+    "rmse":1.0138516603,
+    "bias":0.0451890036,
+    "pearson":0.5266721818,
+    "spearman":0.5198642957,
+    "exact_match":0.2611683849,
+    "adjacent_match":0.8487972509,
+    "mae_normalized":0.2611111112,
+    "rmse_normalized":0.3368797597,
+    "over_max_rate":0.0,
+    "n_answers_total":72,
+    "n_answers_complete":72,
+    "answer_parse_rate":1.0,
+    "n_answers":72,
+    "answer_mae":2.0118055549,
+    "answer_rmse":2.6680139817,
+    "answer_bias":0.1826388896,
+    "answer_pearson":0.6345463983,
+    "answer_within_1":0.375
+  }
+]

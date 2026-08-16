@@ -1,0 +1,31 @@
+[
+  {
+    "model":"pixtral",
+    "regime":"zero_shot",
+    "n_total":291,
+    "n_valid":291,
+    "parse_rate":1.0,
+    "qwk":0.4831264485,
+    "linear_kappa":0.3882646214,
+    "cohen_kappa":0.2026624967,
+    "mae":0.717525773,
+    "rmse":1.0577646143,
+    "bias":0.1879725088,
+    "pearson":0.5056733424,
+    "spearman":0.5378619029,
+    "exact_match":0.3195876289,
+    "adjacent_match":0.8453608247,
+    "mae_normalized":0.2474226803,
+    "rmse_normalized":0.3407816184,
+    "over_max_rate":0.0,
+    "n_answers_total":72,
+    "n_answers_complete":72,
+    "answer_parse_rate":1.0,
+    "n_answers":72,
+    "answer_mae":2.2194444438,
+    "answer_rmse":3.1308611694,
+    "answer_bias":0.7597222229,
+    "answer_pearson":0.5370233188,
+    "answer_within_1":0.4305555556
+  }
+]
