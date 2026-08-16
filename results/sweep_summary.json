@@ -1,0 +1,147 @@
+[
+  {
+    "step": "qwen25vl/zero_shot",
+    "status": "ok",
+    "seconds": 363.3
+  },
+  {
+    "step": "internvl3/zero_shot",
+    "status": "ok",
+    "seconds": 348.0
+  },
+  {
+    "step": "pixtral/zero_shot",
+    "status": "ok",
+    "seconds": 327.1
+  },
+  {
+    "step": "donut/zero_shot",
+    "status": "ok",
+    "seconds": 52.2
+  },
+  {
+    "step": "ensemble/zero_shot",
+    "status": "ok",
+    "seconds": 6.2
+  },
+  {
+    "step": "qwen25vl/few_shot",
+    "status": "ok",
+    "seconds": 629.0
+  },
+  {
+    "step": "internvl3/few_shot",
+    "status": "ok",
+    "seconds": 592.3
+  },
+  {
+    "step": "pixtral/few_shot",
+    "status": "ok",
+    "seconds": 1056.4
+  },
+  {
+    "step": "donut/few_shot",
+    "status": "ok",
+    "seconds": 67.9
+  },
+  {
+    "step": "ensemble/few_shot",
+    "status": "ok",
+    "seconds": 6.3
+  },
+  {
+    "step": "qwen25vl/lora",
+    "status": "ok",
+    "seconds": 6617.6
+  },
+  {
+    "step": "internvl3/lora",
+    "status": "ok",
+    "seconds": 9003.9
+  },
+  {
+    "step": "pixtral/lora",
+    "status": "ok",
+    "seconds": 6764.8
+  },
+  {
+    "step": "donut/lora",
+    "status": "ok",
+    "seconds": 365.7
+  },
+  {
+    "step": "ensemble/lora",
+    "status": "ok",
+    "seconds": 6.1
+  },
+  {
+    "step": "qwen25vl/full",
+    "status": "ok",
+    "seconds": 5087.6
+  },
+  {
+    "step": "internvl3/full",
+    "status": "ok",
+    "seconds": 6355.4
+  },
+  {
+    "step": "pixtral/full",
+    "status": "ok",
+    "seconds": 4995.1
+  },
+  {
+    "step": "donut/full",
+    "status": "ok",
+    "seconds": 376.8
+  },
+  {
+    "step": "ensemble/full",
+    "status": "ok",
+    "seconds": 6.1
+  },
+  {
+    "step": "qwen25vl/reliability",
+    "status": "ok",
+    "seconds": 1533.1
+  },
+  {
+    "step": "internvl3/reliability",
+    "status": "ok",
+    "seconds": 1423.9
+  },
+  {
+    "step": "pixtral/reliability",
+    "status": "ok",
+    "seconds": 1993.7
+  },
+  {
+    "step": "donut/reliability",
+    "status": "ok",
+    "seconds": 209.9
+  },
+  {
+    "step": "study1_accuracy.py",
+    "status": "ok",
+    "seconds": 4.8
+  },
+  {
+    "step": "study2_human_agreement.py",
+    "status": "ok",
+    "seconds": 16.2
+  },
+  {
+    "step": "study3_reliability.py",
+    "status": "ok",
+    "seconds": 2.6
+  },
+  {
+    "step": "study4_fairness_error.py",
+    "status": "ok",
+    "seconds": 13.0
+  },
+  {
+    "step": "study5_xai_eval.py",
+    "status": "ok",
+    "seconds": 741.8
+  }
+]
