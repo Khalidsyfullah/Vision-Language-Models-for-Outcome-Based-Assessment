@@ -2,7 +2,8 @@
 
 OBE-VLM-Grading is a reproducible research codebase for criterion-level grading of handwritten university exam answers with vision-language models. It implements four learning regimes, a cascaded ensemble, five evaluation studies, Study 5 explanation images, dataset generation, and the released numerical results.
 
-Release: `2.0.1`
+# Survey link
+https://khalidsyfullah.github.io/obe-teacher-study/
 
 ## Research scope
 
